@@ -1,6 +1,6 @@
 # Profile
 
-**[Clash](https://github.com/Centralmatrix3/Scripts-Rules/tree/master/Profile/Clash)**
+**[Stash](https://github.com/Centralmatrix3/Scripts-Rules/tree/master/Profile/Stash)**
 
 **[Loon](https://github.com/Centralmatrix3/Scripts-Rules/tree/master/Profile/Loon)**
 

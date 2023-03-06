@@ -1,0 +1,480 @@
+# > Stash 配置
+
+# > 2023.02.15 21:41
+
+# > 订阅的信息展示
+subscribe-url: http://your-service-provider
+
+# > 远程服务器
+proxy-providers:
+  服务提供商-1:
+    url: http://your-service-provider
+    interval: 600
+
+proxy-groups:
+# > 策略组:自行选择
+  - name: 自行选择
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png
+    interval: 120
+    lazy: true
+    type: select
+    url: http://cp.cloudflare.com/generate_204
+    include-all: true
+
+# > 策略组:苹果服务
+  - name: 苹果服务
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
+    type: select
+    proxies: &proxies
+      - DIRECT
+      - 自行选择
+      - 自动选择
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+
+# > 策略组:网易音乐
+  - name: 网易音乐
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netease_Music.png
+    type: select
+    proxies: &proxies
+      - DIRECT
+
+# > 策略组:速度测试
+  - name: 速度测试
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Speedtest.png
+    type: select
+    proxies: &proxies
+      - DIRECT
+      - 自行选择
+      - 自动选择
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+
+# > 策略组:港台番剧
+  - name: 港台番剧
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/StreamingSE.png
+    type: select
+    proxies: &proxies
+      - DIRECT
+      - 自行选择
+      - 自动选择
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+
+# > 策略组:国内媒体
+  - name: 国内媒体
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/StreamingCN.png
+    type: select
+    proxies: &proxies
+      - DIRECT
+      - 自行选择
+      - 自动选择
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+
+# > 策略组:国际媒体
+  - name: 国际媒体
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Streaming.png
+    type: select
+    proxies: &proxies
+      - DIRECT
+      - 自行选择
+      - 自动选择
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+
+# > 策略组:全球加速
+  - name: 全球加速
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+    type: select
+    proxies: &proxies
+      - DIRECT
+      - 自行选择
+      - 自动选择
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+
+# > 策略组:黑白名单
+  - name: 黑白名单
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png
+    type: select
+    proxies: &proxies
+      - DIRECT
+      - 自行选择
+      - 自动选择
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+
+# > 策略组:自动选择
+  - name: 自动选择
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png
+    interval: 120
+    lazy: true
+    tolerance: 50
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    include-all: true
+
+# > 策略组:香港节点
+  - name: 香港节点
+    filter: "香港|港|HK|(?i)HongKong"
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+    interval: 120
+    lazy: true
+    tolerance: 50
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    include-all: true
+
+# > 策略组:台湾节点
+  - name: 台湾节点
+    filter: "台湾|台|TW|(?i)Taiwan"
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
+    interval: 120
+    lazy: true
+    tolerance: 50
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    include-all: true
+
+# > 策略组:日本节点
+  - name: 日本节点
+    filter: "日本|日|JP|(?i)Japan"
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
+    interval: 120
+    lazy: true
+    tolerance: 50
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    include-all: true
+
+# > 策略组:韩国节点
+  - name: 韩国节点
+    filter: "韩国|韩|KR|(?i)SouthKorea"
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
+    interval: 120
+    lazy: true
+    tolerance: 50
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    include-all: true
+
+# > 策略组:狮城节点
+  - name: 狮城节点
+    filter: "新加坡|新|SG|(?i)Singapore"
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
+    interval: 120
+    lazy: true
+    tolerance: 50
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    include-all: true
+
+# > 策略组:美国节点
+  - name: 美国节点
+    filter: "美国|美|US|(?i)UnitedStates"
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+    interval: 120
+    lazy: true
+    tolerance: 50
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    include-all: true
+
+rules:
+# > 本地规则:规则修正
+  - RULE-SET, 规则修正, DIRECT
+
+# > 本地规则:广告拦截
+  - RULE-SET, 广告拦截, REJECT
+
+# > 本地规则:隐私保护
+  - RULE-SET, 隐私保护, REJECT
+
+# > 本地规则:运营劫持
+  - RULE-SET, 运营劫持, REJECT
+
+# > 本地规则:微信直连
+  - RULE-SET, 微信直连, DIRECT
+
+# > 本地规则:网易音乐
+  - RULE-SET, 网易音乐, 网易音乐
+
+# > 本地规则:速度测试
+  - RULE-SET, 速度测试, 速度测试
+
+# > 本地规则:推特规则
+  - RULE-SET, 推特规则, 全球加速
+
+# > 本地规则:电报规则
+  - RULE-SET, 电报规则, 全球加速
+
+# > 本地规则:脸书规则
+  - RULE-SET, 脸书规则, 全球加速
+
+# > 本地规则:油管视频
+  - RULE-SET, 油管视频, 国际媒体
+
+# > 本地规则:奈飞视频
+  - RULE-SET, 奈飞视频, 国际媒体
+
+# > 本地规则:国际抖音
+  - RULE-SET, 国际抖音, 国际媒体
+
+# > 本地规则:国际媒体
+  - RULE-SET, 国际媒体, 国际媒体
+
+# > 本地规则:哔哩哔哩
+  - RULE-SET, 哔哩哔哩, 港台番剧
+
+# > 本地规则:奇艺视频
+  - RULE-SET, 奇艺视频, 港台番剧
+
+# > 本地规则:港台番剧
+  - RULE-SET, 港台番剧, 港台番剧
+
+# > 本地规则:腾讯视频
+  - RULE-SET, 腾讯视频, 国内媒体
+
+# > 本地规则:优酷视频
+  - RULE-SET, 优酷视频, 国内媒体
+
+# > 本地规则:搜狐视频
+  - RULE-SET, 搜狐视频, 国内媒体
+
+# > 本地规则:国内抖音
+  - RULE-SET, 国内抖音, 国内媒体
+
+# > 本地规则:国内媒体
+  - RULE-SET, 国内媒体, 国内媒体
+
+# > 本地规则:苹果服务
+  - RULE-SET, 苹果服务, 苹果服务
+
+# > 本地规则:谷歌服务
+  - RULE-SET, 谷歌服务, 全球加速
+
+# > 本地规则:微软服务
+  - RULE-SET, 微软服务, 全球加速
+
+# > 本地规则:国外网站
+  - RULE-SET, 国外网站, 全球加速
+
+# > 本地规则:国内网站
+#  - RULE-SET, 国内网站, DIRECT
+
+# > 本地规则:默认规则
+  - GEOIP,CN,DIRECT
+  - MATCH,黑白名单
+
+rule-providers:
+# > 远程规则:规则修正
+  规则修正:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml
+
+# > 远程规则:广告拦截
+  广告拦截:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml
+
+# > 远程规则:隐私保护
+  隐私保护:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Classical.yaml
+
+# > 远程规则:运营劫持
+  运营劫持:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.yaml
+
+# > 远程规则:微信直连
+  微信直连:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat/WeChat.yaml
+
+# > 远程规则:网易音乐
+  网易音乐:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NetEaseMusic/NetEaseMusic.yaml
+
+# > 远程规则:速度测试
+  速度测试:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest.yaml
+
+# > 远程规则:推特规则
+  推特规则:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.yaml
+
+# > 远程规则:电报规则
+  电报规则:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
+
+# > 远程规则:脸书规则
+  脸书规则:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Facebook/Facebook.yaml
+
+# > 远程规则:油管视频
+  油管视频:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
+
+# > 远程规则:奈飞视频
+  奈飞视频:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml
+
+# > 远程规则:国际抖音
+  国际抖音:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
+
+# > 远程规则:国际媒体
+  国际媒体:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml
+
+# > 远程规则:哔哩哔哩
+  哔哩哔哩:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml
+
+# > 远程规则:奇艺视频
+  奇艺视频:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iQIYI/iQIYI.yaml
+
+# > 远程规则:港台番剧
+  港台番剧:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
+
+# > 远程规则:腾讯视频
+  腾讯视频:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TencentVideo/TencentVideo.yaml
+
+# > 远程规则:优酷视频
+  优酷视频:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Youku/Youku.yaml
+
+# > 远程规则:搜狐视频
+  搜狐视频:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Sohu/Sohu.yaml
+
+# > 远程规则:国内抖音
+  国内抖音:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin.yaml
+
+# > 远程规则:国内媒体
+  国内媒体:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMedia/ChinaMedia.yaml
+
+# > 远程规则:苹果服务
+  苹果服务:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical.yaml
+
+# > 远程规则:谷歌服务
+  谷歌服务:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml
+
+# > 远程规则:微软服务
+  微软服务:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
+
+# > 远程规则:国外网站
+  国外网站:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Classical.yaml
+
+# > 远程规则:国内网站
+#  国内网站:
+#    behavior: classical
+#    interval: 86400
+#    url: https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/auto-update/stoverride/ASN.China.stoverride
+
+# > 脚本
+script:
+  shortcuts:
+    quic: network == 'udp' and dst_port == 443
+
+# > DNS
+dns:
+  default-nameserver:
+    - 114.114.114.114
+    - 114.114.115.115
+    - 119.28.28.28
+    - 119.29.29.29
+    - 223.5.5.5
+    - 223.6.6.6
+    - system
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+log-level: info
+mode: rule

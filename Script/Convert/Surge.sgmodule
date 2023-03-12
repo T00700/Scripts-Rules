@@ -1,5 +1,5 @@
-#!name=QuantumultX重写&规则集转化
-#!desc=在重写链接末尾面加上qx/在规则链接末尾加上r_parser.list
+#!name=QuantumultX重写&规则转化
+#!desc=重写链接末尾面加qx/规则链接末尾加r_parser.list
 
 [Script]
 

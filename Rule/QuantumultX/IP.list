@@ -1,5 +1,5 @@
-# > 针对部分网站显示IP归属地的QuantumultX分流规则
-# > 原项目地址：https://github.com/lwd-temp/anti-ip-attribution
+# > 针对部分网站显示IP归属地的圈X分流规则
+# > 原项目地址https://github.com/lwd-temp/anti-ip-attribution
 
 # > 哔哩哔哩
 DOMAIN-SUFFIX,biliapi.net,IP
@@ -57,51 +57,49 @@ DOMAIN-KEYWORD,search-lq,IP
 # > 头条
 DOMAIN-SUFFIX,toutiaoapi.com,IP
 
-# ======= 快手 ======= #
+# > 快手
 DOMAIN-SUFFIX,gifshow.com,IP
 DOMAIN-SUFFIX,ksapisrv.com,IP
 
-# ======= 小红书 ======= #
+# > 小红书
 DOMAIN-SUFFIX,xiaohongshu.com,IP
 
-# ======= 其乐论坛 ======= #
+# > 其乐论坛
 DOMAIN,keylol.com,IP
 
-# ======= 西瓜视频 ======= #
+# > 西瓜视频
 DOMAIN-SUFFIX,ixigua.com,IP
 
-# ======= 文叔叔 ======= #
+# > 文叔叔
 DOMAIN,www.wenshushu.cn,IP
 
-# ======= 酷安 ======= #
+# > 酷安
 DOMAIN,api.coolapk.com,IP
 
-# ======= 豆瓣 ======= #
-# iOS客户端，目前无法可靠地处理iOS端的请求，建议全局代理
+# > 豆瓣(目前无法可靠处理iOS端请求建议全局代理)
 DOMAIN,frodo.douban.com,IP
 # 网页端
 DOMAIN,www.douban.com,IP
 
-# ======= TapTap ======= #
+# > TapTap
 DOMAIN,api.taptapdada.com,IP
 
-# ======= 网易大神 ======= #
+# > 网易大神
 DOMAIN,god.gameyw.netease.com,IP
 
-# ======= 虎牙 ======= #
+# > 虎牙
 DOMAIN-SUFFIX,huya.com,IP
 
-# ======= 懂球帝 ======= #
+# > 懂球帝
 DOMAIN-SUFFIX,dongqiudi.com,IP
 
-# ======= NGA ======= #
-# 个人主页ip，开代理以后发一个评论就会变代理ip
+# > NGA(个人主页ip开代理发一个评论就会变代理ip)
 DOMAIN,ngabbs.com,IP
 
-# ======= 小米社区 ======= #
+# > 小米社区
 DOMAIN-SUFFIX,vip.miui.com,IP
 
-# ======= 网易云音乐======= #
+# > 网易云音乐
 DOMAIN-SUFFIX,music.163.com,IP
 DOMAIN,nstool.netease.com,IP
 DOMAIN,wanproxy.127.net,IP
@@ -127,5 +125,5 @@ IP-CIDR,59.111.160.195/32,IP
 IP-CIDR,59.111.19.33/32,IP
 IP-CIDR,59.111.19.53/32,IP
 
-# > 米哈游
+# > 米游社
 DOMAIN,bbs-api.mihoyo.com,IP

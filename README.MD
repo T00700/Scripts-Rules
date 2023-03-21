@@ -1,13 +1,4 @@
 # Scripts And Rules Etc...
 
-<div align=center><img width="500" height="180" src="https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix/Others/Surge.JPG"/>
-
-<div align=center><img width="500" height="180" src="https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix/Others/QuantumultX.JPG"/>
-
-<div align=center><img width="500" height="180" src="https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix/Others/Loon.JPG"/>
-
-<div align=center><img width="500" height="180" src="https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix/Others/Stash.JPG"/>
-
-<div align=center><img width="500" height="180" src="https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix/Others/Quantumult.JPG"/>
-
-<div align=center><img width="500" height="180" src="https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix/Others/Shadowrocket.JPG"/>
+## 特别声明
+1. 本项目不对数据内容负责，包括但不限于数据的真实性、准确性、合法性。使用本项目所造成的一切后果，与本项目的所有贡献者无关，由使用的个人或组织完全承担。

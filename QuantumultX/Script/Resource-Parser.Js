@@ -1,5 +1,9 @@
-/** 
+/*
 资源解析器:@𝐒𝐡𝐚𝐰𝐧 https://github.com/KOP-XIAO
+
+本内容仅复制自用如需使用还请使用原作者的项目
+
+时间:2023.03.21 18:30
 
 原项目地址:https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
 

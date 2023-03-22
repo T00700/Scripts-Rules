@@ -1,0 +1,8 @@
+DOMAIN-SUFFIX,mcupdate.gstarcad.com,REJECT
+DOMAIN-SUFFIX,adx.open-adx.com,REJECT
+DOMAIN-SUFFIX,adservice.sigmob.cn,REJECT
+DOMAIN-SUFFIX,t7z.cupid.iqiyi.com,REJECT
+DOMAIN-SUFFIX,static-s.iqiyi.com,REJECT
+DOMAIN-SUFFIX,mobile2.da.mgtv.com,REJECT
+DOMAIN-SUFFIX,mobile.da.mgtv.com,REJECT
+DOMAIN-SUFFIX,gwp.xiaojukeji.com,REJECT

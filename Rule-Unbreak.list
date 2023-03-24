@@ -1,5 +1,5 @@
-# > Rule-Unbreak
-# > Rule-Unbreak规则兼容(QuantumultX)与(Loon)
+# > Rule-Unbreak(规则修正)
+# > 此规则兼容(QuantumultX)与(Loon)直接使用不需要开启解析器.
 
 DOMAIN, ad.10010.com, DIRECT
 DOMAIN, alt1-mtalk.google.com, DIRECT

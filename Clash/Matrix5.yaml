@@ -54,7 +54,7 @@ proxy-providers:
 
   Proxy:
     type: http
-    url: "█████████████"
+    url: "█订阅链接█"
     interval: 3600
     path: ./ProxyList.yaml
     health-check:

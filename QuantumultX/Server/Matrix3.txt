@@ -1,3 +1,2 @@
-https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=d1092db2de50cebc95efe52c133bc854
-
-https://dy3721.top/api/v1/client/subscribe?token=147f8fd5791eeacb641754bf904c0ff8
+https://dy3721.top/api/v1/client/subscribe?token=147f8fd5791eeacb641754bf904c0ff8, tag=Tag-1679824119, update-interval=172800, opt-parser=false, enabled=true
+https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=d1092db2de50cebc95efe52c133bc854, tag=Tag-1679824103, update-interval=172800, opt-parser=false, enabled=true

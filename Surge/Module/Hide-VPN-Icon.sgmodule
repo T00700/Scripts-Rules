@@ -1,6 +1,5 @@
 #!name=Hide VPN Icon
-#!desc=隐藏状态栏上的 VPN 图标，可能会导致「Cannot allocate memory」系统错误，请谨慎使用
-#!system=ios
+#!desc=隐藏状态栏上的VPN图标
 
 [General]
 hide-vpn-icon=true

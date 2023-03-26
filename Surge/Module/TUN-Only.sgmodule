@@ -1,5 +1,5 @@
 #!name=TUN Only
-#!desc=启用 TUN Only 模式
+#!desc=启用TUN Only使用80端口HTTP代理
 
 [General]
 compatibility-mode = 3

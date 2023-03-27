@@ -1,0 +1,46 @@
+{
+  "name": "Matrix Color",
+  "description": "Matrix Color图标",
+  "icons": [
+    {
+      "name": "OpenAI-1.png",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Color/OpenAI-1.png"
+    },
+    {
+      "name": "OpenAI-2.png",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Color/OpenAI-2.png"
+    },
+    {
+      "name": "GoogleVoice.png",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Color/GoogleVoice.png"
+    },
+    {
+      "name": "Loon.png",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Color/Loon.png"
+    },
+    {
+      "name": "QuantumultX.png",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Color/QuantumultX.png"
+    },
+    {
+      "name": "Shadowrocket.png",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Color/Shadowrocket.png"
+    },
+    {
+      "name": "Stash.png",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Color/Stash.png"
+    },
+    {
+      "name": "Surge.png",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Color/Surge.png"
+    },
+    {
+      "name": "Clash.png",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Color/Clash.png"
+    },
+    {
+      "name": "betahub.png",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Color/betahub.png"
+    }
+  ]
+}

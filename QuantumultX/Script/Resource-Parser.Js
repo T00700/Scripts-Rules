@@ -2,9 +2,11 @@
 ----------------------------------------------------------
 资源解析器:@𝐒𝐡𝐚𝐰𝐧 https://github.com/KOP-XIAO
 
-本内容仅复制自用如需使用还请使用原作者的项目.
+本内容仅备份如需使用脚本还请使用原作者的项目.
 
-原项目地址:https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
+原作者项目地址:https://github.com/KOP-XIAO/QuantumultX
+
+原作者脚本链接:https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
 ----------------------------------------------------------
 */
 

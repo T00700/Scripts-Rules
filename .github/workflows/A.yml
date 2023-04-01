@@ -1,0 +1,22 @@
+name: Release Shadowrocket Rules
+
+on:
+  schedule:
+    # 每日8时开始
+    - cron:  '24 22 * * *'
+
+jobs:
+  Release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Remove commits
+        run: |
+          cd release || exit 1
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git checkout --orphan latest_branch
+          git add -A
+          git commit -am "Nightly build"
+          git branch -D release
+          git branch -m release
+          git push -f origin release

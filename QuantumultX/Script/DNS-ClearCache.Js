@@ -1,3 +1,8 @@
+/*
+[task_local]
+# > 清除DNS缓存
+5 0 * * * https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/QuantumultX/Script/DNS-ClearCache.Js, tag=Clear-Cache, img-url=trash.circle.system, enabled=true
+*/
 const message = {
     action: "dns_clear_cache"
 };

@@ -92,8 +92,8 @@ static=网易音乐, direct, img-url=https://raw.githubusercontent.com/Koolson/Q
 # > 速度测试
 static=速度测试, direct, proxy, 自动选择, 健康监测, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 美国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Available.png
 
-# > OpenAI
-static=Open-AI, proxy, direct, 自动选择, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 美国节点, img-url=https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Color/OpenAI-1.png
+# > 人工智能
+static=人工智能, proxy, direct, 自动选择, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 美国节点, img-url=https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Color/OpenAI-1.png
 
 # > 港台番剧
 static=港台番剧, direct, proxy, 自动选择, 健康监测, 香港节点, 台湾节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/StreamingSE.png
@@ -142,6 +142,7 @@ url-latency-benchmark=美国节点, server-tag-regex=(?=.*(美国|美|US|(?i)Uni
 
 [filter_local]
 # > 局域网络
+HOST-SUFFIX, local, DIRECT
 IP-CIDR, 10.0.0.0/8, DIRECT
 IP-CIDR, 127.0.0.0/8, DIRECT
 IP-CIDR, 172.16.0.0/12, DIRECT
@@ -188,8 +189,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 # > 脸书规则
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Facebook/Facebook.list, tag=脸书规则, force-policy=全球加速, update-interval=172800, opt-parser=false, inserted-resource=true, enabled=true
 
-# > OpenAI
-https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/QuantumultX/Rule/OpenAI.list, tag=Open-AI, force-policy=Open-AI, update-interval=172800, opt-parser=false, inserted-resource=true, enabled=true
+# > 人工智能
+https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/QuantumultX/Rule/OpenAI.list, tag=人工智能, force-policy=人工智能, update-interval=172800, opt-parser=false, inserted-resource=true, enabled=true
 
 # > 国际抖音
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/TikTok/TikTok.list, tag=国际抖音, force-policy=国际媒体, update-interval=172800, opt-parser=false, inserted-resource=true, enabled=true
@@ -199,6 +200,12 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 
 # > 哔哩哔哩
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/BiliBili/BiliBili.list, tag=哔哩哔哩, force-policy=港台番剧, update-interval=172800, opt-parser=false, inserted-resource=true, enabled=true
+
+# > 港台番剧
+https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Surge/Rule/StreamingSE.list, tag=港台番剧, force-policy=港台番剧, update-interval=172800, opt-parser=true, enabled=true
+
+# > 国内抖音
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/DouYin/DouYin.list, tag=国内抖音, force-policy=国内影视, update-interval=172800, opt-parser=false, inserted-resource=true, enabled=true
 
 # > 国内媒体
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMedia/ChinaMedia.list, tag=国内媒体, force-policy=国内媒体, update-interval=172800, opt-parser=false, inserted-resource=true, enabled=true

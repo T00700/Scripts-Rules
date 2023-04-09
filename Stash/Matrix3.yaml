@@ -1,14 +1,10 @@
-# > Stash 配置
-
-# > 2023.02.15 21:41
-
 # > 订阅的信息展示
-subscribe-url: http://your-service-provider
+subscribe-url: 🔴订阅链接🟢
 
 # > 远程服务器
 proxy-providers:
   服务提供商-1:
-    url: http://your-service-provider
+    url: 🔴订阅链接🟢
     interval: 600
 
 proxy-groups:
@@ -240,12 +236,6 @@ rules:
 # > 本地规则:脸书规则
   - RULE-SET, 脸书规则, 全球加速
 
-# > 本地规则:油管视频
-  - RULE-SET, 油管视频, 国际媒体
-
-# > 本地规则:奈飞视频
-  - RULE-SET, 奈飞视频, 国际媒体
-
 # > 本地规则:国际抖音
   - RULE-SET, 国际抖音, 国际媒体
 
@@ -254,21 +244,6 @@ rules:
 
 # > 本地规则:哔哩哔哩
   - RULE-SET, 哔哩哔哩, 港台番剧
-
-# > 本地规则:奇艺视频
-  - RULE-SET, 奇艺视频, 港台番剧
-
-# > 本地规则:港台番剧
-  - RULE-SET, 港台番剧, 港台番剧
-
-# > 本地规则:腾讯视频
-  - RULE-SET, 腾讯视频, 国内媒体
-
-# > 本地规则:优酷视频
-  - RULE-SET, 优酷视频, 国内媒体
-
-# > 本地规则:搜狐视频
-  - RULE-SET, 搜狐视频, 国内媒体
 
 # > 本地规则:国内抖音
   - RULE-SET, 国内抖音, 国内媒体
@@ -279,17 +254,8 @@ rules:
 # > 本地规则:苹果服务
   - RULE-SET, 苹果服务, 苹果服务
 
-# > 本地规则:谷歌服务
-  - RULE-SET, 谷歌服务, 全球加速
-
-# > 本地规则:微软服务
-  - RULE-SET, 微软服务, 全球加速
-
 # > 本地规则:国外网站
   - RULE-SET, 国外网站, 全球加速
-
-# > 本地规则:国内网站
-#  - RULE-SET, 国内网站, DIRECT
 
 # > 本地规则:默认规则
   - GEOIP,CN,DIRECT
@@ -356,18 +322,6 @@ rule-providers:
     interval: 86400
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Facebook/Facebook.yaml
 
-# > 远程规则:油管视频
-  油管视频:
-    behavior: classical
-    interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
-
-# > 远程规则:奈飞视频
-  奈飞视频:
-    behavior: classical
-    interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml
-
 # > 远程规则:国际抖音
   国际抖音:
     behavior: classical
@@ -385,36 +339,6 @@ rule-providers:
     behavior: classical
     interval: 86400
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml
-
-# > 远程规则:奇艺视频
-  奇艺视频:
-    behavior: classical
-    interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iQIYI/iQIYI.yaml
-
-# > 远程规则:港台番剧
-  港台番剧:
-    behavior: classical
-    interval: 86400
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
-
-# > 远程规则:腾讯视频
-  腾讯视频:
-    behavior: classical
-    interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TencentVideo/TencentVideo.yaml
-
-# > 远程规则:优酷视频
-  优酷视频:
-    behavior: classical
-    interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Youku/Youku.yaml
-
-# > 远程规则:搜狐视频
-  搜狐视频:
-    behavior: classical
-    interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Sohu/Sohu.yaml
 
 # > 远程规则:国内抖音
   国内抖音:
@@ -434,29 +358,11 @@ rule-providers:
     interval: 86400
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical.yaml
 
-# > 远程规则:谷歌服务
-  谷歌服务:
-    behavior: classical
-    interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml
-
-# > 远程规则:微软服务
-  微软服务:
-    behavior: classical
-    interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
-
 # > 远程规则:国外网站
   国外网站:
     behavior: classical
     interval: 86400
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Classical.yaml
-
-# > 远程规则:国内网站
-#  国内网站:
-#    behavior: classical
-#    interval: 86400
-#    url: https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/auto-update/stoverride/ASN.China.stoverride
 
 # > 脚本
 script:
@@ -467,12 +373,8 @@ script:
 dns:
   default-nameserver:
     - 114.114.114.114
-    - 114.114.115.115
-    - 119.28.28.28
     - 119.29.29.29
     - 223.5.5.5
-    - 223.6.6.6
-    - system
   nameserver:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query

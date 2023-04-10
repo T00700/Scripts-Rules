@@ -1,3 +1,4 @@
+# > QuantumultX配置 By Matrix3
 [general]
 # > 网络检查
 network_check_url=http://bing.com/
@@ -55,9 +56,6 @@ doq-server=quic://162.14.132.109:853, quic://south.tex0n.net:785
 [policy]
 # > 苹果服务
 static=苹果服务, direct, proxy, 自动选择, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 美国节点, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
-
-# > OpenAI
-static=Open-AI, proxy, direct, 自动选择, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 美国节点, img-url=https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Color/OpenAI-1.png
 
 # > 港台番剧
 static=港台番剧, direct, proxy, 自动选择, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 美国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/StreamingSE.png
@@ -124,7 +122,7 @@ https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-a
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/WeChat/WeChat.list, tag=微信规则, force-policy=direct, update-interval=172800, opt-parser=false, inserted-resource=true, enabled=true
 
 # > OpenAI
-https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/QuantumultX/Rule/OpenAI.list, tag=Open-AI, force-policy=Open-AI, update-interval=172800, opt-parser=false, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/QuantumultX/Rule/OpenAI.list, tag=OPEN-AI, force-policy=美国节点, update-interval=172800, opt-parser=false, inserted-resource=true, enabled=true
 
 # > 国际抖音
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/TikTok/TikTok.list, tag=国际抖音, force-policy=国际媒体, update-interval=172800, opt-parser=false, inserted-resource=true, enabled=true
@@ -134,6 +132,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 
 # > 哔哩哔哩
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/BiliBili/BiliBili.list, tag=哔哩哔哩, force-policy=港台番剧, update-interval=172800, opt-parser=false, inserted-resource=true, enabled=true
+
+# > 国内抖音
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/DouYin/DouYin.list, tag=国内抖音, force-policy=国内影视, update-interval=172800, opt-parser=false, inserted-resource=true, enabled=true
 
 # > 国内影视
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMedia/ChinaMedia.list, tag=国内影视, force-policy=国内影视, update-interval=172800, opt-parser=false, inserted-resource=true, enabled=true

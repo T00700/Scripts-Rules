@@ -24,7 +24,11 @@
     },
     {
       "name":"Apple_1.png", 
-      "url":"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png"},{"name":"Apple_2.png","url":"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_2.png"        
+      "url":"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png"
+    },
+    {
+      "name":"Apple_2.png", 
+      "url":"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_2.png"        
     },
     {
       "name": "Emoji.png",
@@ -94,7 +98,9 @@
       "name":"Final", 
       "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png"
     }, 
-    {"name":"TikTok", "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png"      
+    {
+      "name":"TikTok", 
+      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png"      
     }, 
     {
       "name":"Pornhub", 
@@ -184,7 +190,9 @@
       "name":"US", 
       "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png"
     }, 
-    {"name":"CA", "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/CA.png"      
+    {
+      "name":"CA", 
+      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/CA.png"      
     }, 
     {
       "name":"AU", 
@@ -192,7 +200,11 @@
     }, 
     {
       "name":"XD", 
-      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/XD.png"}, {"name":"UN", "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/UN.png"        
+      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/XD.png"
+    }, 
+    {
+      "name":"UN", 
+      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/UN.png"        
     }
   ]
 }

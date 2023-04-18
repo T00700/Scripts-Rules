@@ -23,10 +23,6 @@
       "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Color/Apple.png"
     },
     {
-      "name":"Apple.png", 
-      "url":"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png"
-    },
-    {
       "name":"Apple_1.png", 
       "url":"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png"},{"name":"Apple_2.png","url":"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_2.png"        
     },
@@ -98,71 +94,7 @@
       "name":"Final", 
       "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png"
     }, 
-    {
-      "name":"Google", 
-      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png"
-    }, 
-    {
-      "name":"Apple", 
-      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png"
-    }, 
-    {
-      "name":"Microsoft", 
-      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png"
-    }, 
-    {
-      "name":"Twitter", 
-      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/Twitter.png"
-    }, 
-    {
-      "name":"Paypal", 
-      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/Paypal.png"
-    }, 
-    {
-      "name":"GoogleDrive", 
-      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/GoogleDrive.png"
-    }, 
-    {
-      "name":"AppleTV", 
-      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/AppleTV.png"
-    }, 
-    {
-      "name":"Discovery+", 
-      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/Discovery.png"
-    }, 
-    {
-      "name":"Clubhouse", 
-      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/Clubhouse.png"
-    }, 
-    {
-      "name":"NeteaseMusic", 
-      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netease.png"
-    }, 
-    {
-      "name":"YouTube", 
-      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png"
-    }, 
-    {
-      "name":"Netflix", 
-      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png"
-    }, 
-    {
-      "name":"Spotify", 
-      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/Spotify.png"
-    }, 
-    {
-      "name":"Emby", 
-      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/Emby.png"
-    }, 
-    {
-      "name":"PLUS", 
-      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/PLUS.png"
-    }, 
     {"name":"TikTok", "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png"      
-    }, 
-    {
-      "name":"Bahamut", 
-      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/Bahamut.png"
     }, 
     {
       "name":"Pornhub", 
@@ -181,16 +113,8 @@
       "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/HBO.png"
     }, 
     {
-      "name":"Hulu", 
-      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/Hulu.png"
-    }, 
-    {
       "name":"PrimeVideo", 
       "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/PrimeVideo.png"
-    }, 
-    {
-      "name":"LineTV", 
-      "url":"https://raw.githubusercontent.com/Orz-3/mini/master/Color/LineTV.png"
     }, 
     {
       "name":"Paramount", 

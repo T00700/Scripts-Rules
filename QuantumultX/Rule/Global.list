@@ -1,474 +1,752 @@
-# (D.C.S.G?)
-DOMAIN-SUFFIX,9cache.com,PROXY
-DOMAIN-SUFFIX,9gag.com,PROXY
-DOMAIN-SUFFIX,abc.com,PROXY
-DOMAIN-SUFFIX,anchor.fm,PROXY
-DOMAIN-SUFFIX,archive.fo,PROXY
-DOMAIN-SUFFIX,archive.org,PROXY
-DOMAIN-SUFFIX,archive.ph,PROXY
-DOMAIN-SUFFIX,archiveofourown.org,PROXY
-DOMAIN-SUFFIX,artstation.com,PROXY
-DOMAIN-SUFFIX,ask.com,PROXY
-DOMAIN-SUFFIX,avg.com,PROXY
-DOMAIN-SUFFIX,axios.com,PROXY
-DOMAIN-SUFFIX,bandcamp.com,PROXY
-DOMAIN-SUFFIX,bandwagonhost.com,PROXY
-DOMAIN-SUFFIX,bbc.com,PROXY
-DOMAIN-SUFFIX,behance.net,PROXY
-DOMAIN-SUFFIX,bit.ly,PROXY
-DOMAIN-SUFFIX,bloglovin.com,PROXY
-DOMAIN-SUFFIX,blubrry.com,PROXY
-DOMAIN-SUFFIX,box.com,PROXY
-DOMAIN-SUFFIX,brave.com,PROXY
-DOMAIN-SUFFIX,bullguard.com,PROXY
-DOMAIN-SUFFIX,castbox.fm,PROXY
-DOMAIN-SUFFIX,change.org,PROXY
-DOMAIN-SUFFIX,cloudcone.com,PROXY
-DOMAIN-SUFFIX,clyp.it,PROXY
-DOMAIN-SUFFIX,cna.com.tw,PROXY
-DOMAIN-SUFFIX,conoha.jp,PROXY
-DOMAIN-SUFFIX,coursehero.com,PROXY
-DOMAIN-SUFFIX,c-span.org,PROXY
-DOMAIN-SUFFIX,dailymotion.com,PROXY
-DOMAIN-SUFFIX,daum.net,PROXY
-DOMAIN-SUFFIX,deadline.com,PROXY
-DOMAIN-SUFFIX,depositphotos.com,PROXY
-DOMAIN-SUFFIX,deviantart.com,PROXY
-DOMAIN-SUFFIX,deviantart.net,PROXY
-DOMAIN-SUFFIX,disconnect.me,PROXY
-DOMAIN-SUFFIX,disqus.com,PROXY
-DOMAIN-SUFFIX,dlive.tv,PROXY
-DOMAIN-SUFFIX,dowjones.com,PROXY
-DOMAIN-SUFFIX,duckduckgo.com,PROXY
-DOMAIN-SUFFIX,earthcam.com,PROXY
-DOMAIN-SUFFIX,edx-cdn.org,PROXY
-DOMAIN-SUFFIX,encyclopedia.com,PROXY
-DOMAIN-SUFFIX,feeder.co,PROXY
-DOMAIN-SUFFIX,feedly.com,PROXY
-DOMAIN-SUFFIX,flickr.com,PROXY
-DOMAIN-SUFFIX,flipboard.com,PROXY
-DOMAIN-SUFFIX,flitto.com,PROXY
-DOMAIN-SUFFIX,foreignaffairs.com,PROXY
-DOMAIN-SUFFIX,foreignpolicy.com,PROXY
-DOMAIN-SUFFIX,ft.com,PROXY
-DOMAIN-SUFFIX,ftchinese.com,PROXY
-DOMAIN-SUFFIX,ftimg.net,PROXY
-DOMAIN-SUFFIX,genius.com,PROXY
-DOMAIN-SUFFIX,getsync.com,PROXY
-DOMAIN-SUFFIX,gfw.report,PROXY
-DOMAIN-SUFFIX,git.io,PROXY
-DOMAIN-SUFFIX,githack.com,PROXY
-DOMAIN-SUFFIX,graphql.org,PROXY
-DOMAIN-SUFFIX,hackmd.io,PROXY
-DOMAIN-SUFFIX,heroku.com,PROXY
-DOMAIN-SUFFIX,hket.com,PROXY
-DOMAIN-SUFFIX,huffpost.com,PROXY
-DOMAIN-SUFFIX,i-cable.com,PROXY
-DOMAIN-SUFFIX,imgur.com,PROXY
-DOMAIN-SUFFIX,independent.co.uk,PROXY
-DOMAIN-SUFFIX,inoreader.com,PROXY
-DOMAIN-SUFFIX,is.gd,PROXY
-DOMAIN-SUFFIX,issuu.com,PROXY
-DOMAIN-SUFFIX,istockphoto.com,PROXY
-DOMAIN-SUFFIX,justpaste.it,PROXY
-DOMAIN-SUFFIX,kakao.com,PROXY
-DOMAIN-SUFFIX,kobo.com,PROXY
-DOMAIN-SUFFIX,listennotes.com,PROXY
-DOMAIN-SUFFIX,livestream.com,PROXY
-DOMAIN-SUFFIX,mailchimp.com,PROXY
-DOMAIN-SUFFIX,matrix.org,PROXY
-DOMAIN-SUFFIX,medibang.com,PROXY
-DOMAIN-SUFFIX,medium.com,PROXY
-DOMAIN-SUFFIX,mega.co.nz,PROXY
-DOMAIN-SUFFIX,mega.io,PROXY
-DOMAIN-SUFFIX,mega.nz,PROXY
-DOMAIN-SUFFIX,mixlr.com,PROXY
-DOMAIN-SUFFIX,moon.fm,PROXY
-DOMAIN-SUFFIX,mubi.com,PROXY
-DOMAIN-SUFFIX,myspace.com,PROXY
-DOMAIN-SUFFIX,myspacecdn.com,PROXY
-DOMAIN-SUFFIX,nbcnews.com,PROXY
-DOMAIN-SUFFIX,neowin.net,PROXY
-DOMAIN-SUFFIX,newstatesman.com,PROXY
-DOMAIN-SUFFIX,newsweek.com,PROXY
-DOMAIN-SUFFIX,newyorker.com,PROXY
-DOMAIN-SUFFIX,now.com,PROXY
-DOMAIN-SUFFIX,ok.ru,PROXY
-DOMAIN-SUFFIX,omny.fm,PROXY
-DOMAIN-SUFFIX,openvpn.net,PROXY
-DOMAIN-SUFFIX,owltail.com,PROXY
-DOMAIN-SUFFIX,oxfordscholarship.com,PROXY
-DOMAIN-SUFFIX,parsevideo.com,PROXY
-DOMAIN-SUFFIX,paste.ee,PROXY
-DOMAIN-SUFFIX,pastie.org,PROXY
-DOMAIN-SUFFIX,pcloud.com,PROXY
-DOMAIN-SUFFIX,peing.net,PROXY
-DOMAIN-SUFFIX,player.fm,PROXY
-DOMAIN-SUFFIX,podbean.com,PROXY
-DOMAIN-SUFFIX,prism-break.org,PROXY
-DOMAIN-SUFFIX,privoxy.org,PROXY
-DOMAIN-SUFFIX,proxifier.com,PROXY
-DOMAIN-SUFFIX,quora.com,PROXY
-DOMAIN-SUFFIX,quoracdn.net,PROXY
-DOMAIN-SUFFIX,qz.com,PROXY
-DOMAIN-SUFFIX,radioline.co,PROXY
-DOMAIN-SUFFIX,reabble.com,PROXY
-DOMAIN-SUFFIX,redditlist.com,PROXY
-DOMAIN-SUFFIX,resilio.com,PROXY
-DOMAIN-SUFFIX,rsshub.app,PROXY
-DOMAIN-SUFFIX,rthk.hk,PROXY
-DOMAIN-SUFFIX,scmp.com,PROXY
-DOMAIN-SUFFIX,scribd.com,PROXY
-DOMAIN-SUFFIX,search.com,PROXY
-DOMAIN-SUFFIX,shutterstock.com,PROXY
-DOMAIN-SUFFIX,signal.org,PROXY
-DOMAIN-SUFFIX,sketchappsources.com,PROXY
-DOMAIN-SUFFIX,slideshare.net,PROXY
-DOMAIN-SUFFIX,smartmailcloud.com,PROXY
-DOMAIN-SUFFIX,smh.com.au,PROXY
-DOMAIN-SUFFIX,speakerdeck.com,PROXY
-DOMAIN-SUFFIX,spideroak.com,PROXY
-DOMAIN-SUFFIX,spiegel.de,PROXY
-DOMAIN-SUFFIX,startpage.com,PROXY
-DOMAIN-SUFFIX,steemit.com,PROXY
-DOMAIN-SUFFIX,straitstimes.com,PROXY
-DOMAIN-SUFFIX,streamable.com,PROXY
-DOMAIN-SUFFIX,substack.com,PROXY
-DOMAIN-SUFFIX,swissinfo.ch,PROXY
-DOMAIN-SUFFIX,tapatalk.com,PROXY
-DOMAIN-SUFFIX,techspot.com,PROXY
-DOMAIN-SUFFIX,textnow.me,PROXY
-DOMAIN-SUFFIX,theage.com.au,PROXY
-DOMAIN-SUFFIX,theatlantic.com,PROXY
-DOMAIN-SUFFIX,theaustralian.com.au,PROXY
-DOMAIN-SUFFIX,theconversation.com,PROXY
-DOMAIN-SUFFIX,thediplomat.com,PROXY
-DOMAIN-SUFFIX,theguardian.com,PROXY
-DOMAIN-SUFFIX,theinitium.com,PROXY
-DOMAIN-SUFFIX,themoviedb.org,PROXY
-DOMAIN-SUFFIX,thetvdb.com,PROXY
-DOMAIN-SUFFIX,time.com,PROXY
-DOMAIN-SUFFIX,tineye.com,PROXY
-DOMAIN-SUFFIX,tiny.cc,PROXY
-DOMAIN-SUFFIX,torproject.org,PROXY
-DOMAIN-SUFFIX,tradingview.com,PROXY
-DOMAIN-SUFFIX,turbobit.net,PROXY
-DOMAIN-SUFFIX,tutanota.com,PROXY
-DOMAIN-SUFFIX,urbandictionary.com,PROXY
-DOMAIN-SUFFIX,ustream.tv,PROXY
-DOMAIN-SUFFIX,v2ex.com,PROXY
-DOMAIN-SUFFIX,venturebeat.com,PROXY
-DOMAIN-SUFFIX,viber.com,PROXY
-DOMAIN-SUFFIX,vimeo.com,PROXY
-DOMAIN-SUFFIX,voxer.com,PROXY
-DOMAIN-SUFFIX,vzw.com,PROXY
-DOMAIN-SUFFIX,washingtonpost.com,PROXY
-DOMAIN-SUFFIX,wattpad.com,PROXY
-DOMAIN-SUFFIX,welt.de,PROXY
-DOMAIN-SUFFIX,whoer.net,PROXY
-DOMAIN-SUFFIX,wikimapia.org,PROXY
-DOMAIN-SUFFIX,wikiwand.com,PROXY
-DOMAIN-SUFFIX,wire.com,PROXY
-DOMAIN-SUFFIX,wireguard.com,PROXY
-DOMAIN-SUFFIX,wn.com,PROXY
-DOMAIN-SUFFIX,worldcat.org,PROXY
-DOMAIN-SUFFIX,wsj.com,PROXY
-DOMAIN-SUFFIX,wsj.net,PROXY
-DOMAIN-SUFFIX,x.co,PROXY
-DOMAIN-SUFFIX,yandex.ru,PROXY
-DOMAIN-SUFFIX,you-get.org,PROXY
-DOMAIN-SUFFIX,zaobao.com,PROXY
-DOMAIN-SUFFIX,zello.com,PROXY
-DOMAIN-SUFFIX,zeronet.io,PROXY
-DOMAIN-SUFFIX,z-lib.org,PROXY
-DOMAIN-SUFFIX,zophar.net,PROXY
-DOMAIN-SUFFIX,zyxel.com,PROXY
-DOMAIN,lab.skk.moe,PROXY
-DOMAIN,ocsp.int-x3.letsencrypt.org,PROXY
-# > Akamai
-DOMAIN,a248.e.akamai.net,PROXY
-DOMAIN,a771.dscq.akamai.net,PROXY
-# > Amazon
-DOMAIN-SUFFIX,amazon.co.jp,PROXY
-DOMAIN,d3c33hcgiwev3.cloudfront.net,PROXY
-DOMAIN,payments-jp.amazon.com,PROXY
-DOMAIN,s3-ap-northeast-1.amazonaws.com,PROXY
-DOMAIN,s3-ap-southeast-2.amazonaws.com,PROXY
-# > Alphabet
-DOMAIN-SUFFIX,abc.xyz,PROXY
-DOMAIN-SUFFIX,admob.com,PROXY
-DOMAIN-SUFFIX,adsense.com,PROXY
-DOMAIN-SUFFIX,advertisercommunity.com,PROXY
-DOMAIN-SUFFIX,ampproject.org,PROXY
-DOMAIN-SUFFIX,android.com,PROXY
-DOMAIN-SUFFIX,androidify.com,PROXY
-DOMAIN-SUFFIX,androidtv.com,PROXY
-DOMAIN-SUFFIX,api.ai,PROXY
-DOMAIN-SUFFIX,apigee.com,PROXY
-DOMAIN-SUFFIX,appspot.com,PROXY
-DOMAIN-SUFFIX,blogblog.com,PROXY
-DOMAIN-SUFFIX,blogger.com,PROXY
-DOMAIN-SUFFIX,chrome.com,PROXY
-DOMAIN-SUFFIX,chromium.org,PROXY
-DOMAIN-SUFFIX,debug.com,PROXY
-DOMAIN-SUFFIX,dialogflow.com,PROXY
-DOMAIN-SUFFIX,feedburner.com,PROXY
-DOMAIN-SUFFIX,firebaseio.com,PROXY
-DOMAIN-SUFFIX,g.co,PROXY
-DOMAIN-SUFFIX,getoutline.org,PROXY
-DOMAIN-SUFFIX,ggpht.com,PROXY
-DOMAIN-SUFFIX,gmail.com,PROXY
-DOMAIN-SUFFIX,gmodules.com,PROXY
-DOMAIN-SUFFIX,gvt0.com,PROXY
-DOMAIN-SUFFIX,gvt1.com,PROXY
-DOMAIN-SUFFIX,gvt3.com,PROXY
-DOMAIN-SUFFIX,itasoftware.com,PROXY
-DOMAIN-SUFFIX,on2.com,PROXY
-DOMAIN-SUFFIX,recaptcha.net,PROXY
-DOMAIN-SUFFIX,schema.org,PROXY
-DOMAIN-SUFFIX,tensorflow.org,PROXY
-DOMAIN-SUFFIX,tenor.com,PROXY
-DOMAIN-SUFFIX,tfhub.dev,PROXY
-DOMAIN-SUFFIX,tiltbrush.com,PROXY
-DOMAIN-SUFFIX,waymo.com,PROXY
-DOMAIN-SUFFIX,web.dev,PROXY
-DOMAIN-SUFFIX,webmproject.org,PROXY
-DOMAIN-SUFFIX,webrtc.org,PROXY
-DOMAIN-SUFFIX,widevine.com,PROXY
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com,PROXY
-DOMAIN-SUFFIX,zynamics.com,PROXY
-DOMAIN-KEYWORD,google,PROXY
-DOMAIN-KEYWORD,.blogspot.,PROXY
-DOMAIN-SUFFIX,goog,PROXY
-# > Apple
-DOMAIN,testflight.apple.com,PROXY
-# > Automattic
-DOMAIN-SUFFIX,gravatar.com,PROXY
-DOMAIN-SUFFIX,tumblr.com,PROXY
-DOMAIN-SUFFIX,videopress.com,PROXY
-DOMAIN-SUFFIX,wordpress.com,PROXY
-# > Bloomberg
-DOMAIN-SUFFIX,bloomberg.cn,PROXY
-DOMAIN-SUFFIX,bloomberg.com,PROXY
-DOMAIN-SUFFIX,bloomberg.de,PROXY
-DOMAIN-SUFFIX,bloombergview.com,PROXY
-# > Clubhouse
-DOMAIN-SUFFIX,clubhouseapi.com,PROXY
-DOMAIN-SUFFIX,joinclubhouse.com,PROXY
-DOMAIN,clubhouse.pubnubapi.com,PROXY
-# > Crypto
-DOMAIN-SUFFIX,aex.com,PROXY
-DOMAIN-SUFFIX,bibox.com,PROXY
-DOMAIN-SUFFIX,binance.cc,PROXY
-DOMAIN-SUFFIX,binance.com,PROXY
-DOMAIN-SUFFIX,binance.me,PROXY
-DOMAIN-SUFFIX,binance.us,PROXY
-DOMAIN-SUFFIX,bitcointalk.org,PROXY
-DOMAIN-SUFFIX,bitfinex.com,PROXY
-DOMAIN-SUFFIX,bithumb.com,PROXY
-DOMAIN-SUFFIX,bitmex.com,PROXY
-DOMAIN-SUFFIX,bitstamp.net,PROXY
-DOMAIN-SUFFIX,bittrex.com,PROXY
-DOMAIN-SUFFIX,bybit.com,PROXY
-DOMAIN-SUFFIX,coinbase.com,PROXY
-DOMAIN-SUFFIX,coincheck.com,PROXY
-DOMAIN-SUFFIX,coingecko.com,PROXY
-DOMAIN-SUFFIX,coinmarketcap.com,PROXY
-DOMAIN-SUFFIX,coinone.co.kr,PROXY
-DOMAIN-SUFFIX,etherscan.io,PROXY
-DOMAIN-SUFFIX,ftx.com,PROXY
-DOMAIN-SUFFIX,gate.io,PROXY
-DOMAIN-SUFFIX,gemini.com,PROXY
-DOMAIN-SUFFIX,huobi.com,PROXY
-DOMAIN-SUFFIX,korbit.co.kr,PROXY
-DOMAIN-SUFFIX,kraken.com,PROXY
-DOMAIN-SUFFIX,kucoin.com,PROXY
-DOMAIN-SUFFIX,liquid.com,PROXY
-DOMAIN-SUFFIX,okex.com,PROXY
-DOMAIN-SUFFIX,okx.com,PROXY
-DOMAIN-SUFFIX,poloniex.com,PROXY
-DOMAIN-SUFFIX,sushi.com,PROXY
-DOMAIN-SUFFIX,uniswap.org,PROXY
-DOMAIN-SUFFIX,zb.com,PROXY
-# > Discord
-DOMAIN-SUFFIX,discord.com,PROXY
-DOMAIN-SUFFIX,discordapp.com,PROXY
-DOMAIN-SUFFIX,discordapp.net,PROXY
-# > Dropbox
-DOMAIN-SUFFIX,dropbox.com,PROXY
-DOMAIN-SUFFIX,dropboxapi.com,PROXY
-DOMAIN-SUFFIX,dropboxusercontent.com,PROXY
-# > Fastly
-DOMAIN-SUFFIX,freetls.fastly.net,PROXY
-DOMAIN,cloud-cdn-digitalocean-com.global.ssl.fastly.net,PROXY
-DOMAIN,github.global.ssl.fastly.net,PROXY
-DOMAIN,nytimes.map.fastly.net,PROXY
-# > Line
-DOMAIN-SUFFIX,line.me,PROXY
-DOMAIN-SUFFIX,line-apps.com,PROXY
-DOMAIN-SUFFIX,line-scdn.net,PROXY
-DOMAIN-SUFFIX,naver.jp,PROXY
-IP-CIDR,103.2.30.0/23,PROXY
-IP-CIDR,125.209.208.0/20,PROXY
-IP-CIDR,147.92.128.0/17,PROXY
-IP-CIDR,203.104.144.0/21,PROXY
-# > Meta
-DOMAIN-SUFFIX,accountkit.com,PROXY
-DOMAIN-SUFFIX,cdninstagram.com,PROXY
-DOMAIN-SUFFIX,f8.com,PROXY
-DOMAIN-SUFFIX,facebookmail.com,PROXY
-DOMAIN-SUFFIX,fb.com,PROXY
-DOMAIN-SUFFIX,fb.me,PROXY
-DOMAIN-SUFFIX,fb.watch,PROXY
-DOMAIN-SUFFIX,fbaddins.com,PROXY
-DOMAIN-SUFFIX,fbcdn.net,PROXY
-DOMAIN-SUFFIX,fbsbx.com,PROXY
-DOMAIN-SUFFIX,fbworkmail.com,PROXY
-DOMAIN-SUFFIX,instagram.com,PROXY
-DOMAIN-SUFFIX,m.me,PROXY
-DOMAIN-SUFFIX,messenger.com,PROXY
-DOMAIN-SUFFIX,oculus.com,PROXY
-DOMAIN-SUFFIX,oculuscdn.com,PROXY
-DOMAIN-SUFFIX,readyatdawn.com,PROXY
-DOMAIN-SUFFIX,rocksdb.org,PROXY
-DOMAIN-SUFFIX,whatsapp.com,PROXY
-DOMAIN-SUFFIX,whatsapp.net,PROXY
-DOMAIN-KEYWORD,.facebook.,PROXY
-# > Microsoft
-DOMAIN-SUFFIX,aka.ms,PROXY
-DOMAIN-SUFFIX,github.blog,PROXY
-DOMAIN-SUFFIX,github.com,PROXY
-DOMAIN-SUFFIX,github.io,PROXY
-DOMAIN-SUFFIX,githubassets.com,PROXY
-DOMAIN-SUFFIX,githubusercontent.com,PROXY
-DOMAIN-SUFFIX,onedrive.live.com,PROXY
-DOMAIN-SUFFIX,streaming.mediaservices.windows.net,PROXY
-DOMAIN,assets1.xboxlive.com,PROXY
-DOMAIN,assets2.xboxlive.com,PROXY
-DOMAIN,az416426.vo.msecnd.net,PROXY
-DOMAIN,az668014.vo.msecnd.net,PROXY
-# > Pinterest
-DOMAIN-SUFFIX,pinimg.com,PROXY
-DOMAIN-KEYWORD,.pinterest.,PROXY
-# > pixiv
-DOMAIN-SUFFIX,pixiv.net,PROXY
-DOMAIN-SUFFIX,pixiv.org,PROXY
-DOMAIN-SUFFIX,pximg.net,PROXY
-# > Reddit
-DOMAIN-SUFFIX,redd.it,PROXY
-DOMAIN-SUFFIX,reddit.com,PROXY
-DOMAIN-SUFFIX,redditmedia.com,PROXY
-DOMAIN-SUFFIX,redditstatic.com,PROXY
-# > Reuters
-DOMAIN-SUFFIX,reuters.com,PROXY
-DOMAIN-SUFFIX,reutersmedia.net,PROXY
-# > Steam
-DOMAIN-SUFFIX,steamcommunity.com,PROXY
-# DOMAIN,store.steampowered.com,PROXY
-# > Telegram
-DOMAIN-SUFFIX,legra.ph,PROXY
-DOMAIN-SUFFIX,t.me,PROXY
-DOMAIN-SUFFIX,tdesktop.com,PROXY
-DOMAIN-SUFFIX,telegra.ph,PROXY
-DOMAIN-SUFFIX,telegram.me,PROXY
-DOMAIN-SUFFIX,telegram.org,PROXY
-DOMAIN-SUFFIX,telesco.pe,PROXY
-IP-CIDR,91.108.4.0/22,PROXY
-IP-CIDR,91.108.8.0/22,PROXY
-IP-CIDR,91.108.12.0/22,PROXY
-IP-CIDR,91.108.16.0/22,PROXY
-IP-CIDR,91.108.20.0/22,PROXY
-IP-CIDR,91.108.56.0/22,PROXY
-IP-CIDR,91.105.192.0/23,PROXY
-IP-CIDR,149.154.160.0/20,PROXY
-IP-CIDR,185.76.151.0/24,PROXY
-IP6-CIDR,2001:b28:f23d::/48,PROXY
-IP6-CIDR,2001:b28:f23f::/48,PROXY
-IP6-CIDR,2001:67c:4e8::/48,PROXY
-IP6-CIDR,2001:b28:f23c::/48,PROXY
-IP6-CIDR,2a0a:f280::/32,PROXY
-# > The Economist
-DOMAIN-SUFFIX,economist.com,PROXY
-DOMAIN-SUFFIX,static-economist.com,PROXY
-# > The New York Times
-DOMAIN-SUFFIX,newyorktimes.com,PROXY
-DOMAIN-SUFFIX,nyt.com,PROXY
-DOMAIN-SUFFIX,nytco.com,PROXY
-DOMAIN-SUFFIX,nytimes.com,PROXY
-DOMAIN-SUFFIX,nytimg.com,PROXY
-DOMAIN-SUFFIX,nytlog.com,PROXY
-DOMAIN-SUFFIX,nytstyle.com,PROXY
-DOMAIN-SUFFIX,tmagazine.com,PROXY
-# > Twitter
-DOMAIN-SUFFIX,periscope.tv,PROXY
-DOMAIN-SUFFIX,pscp.tv,PROXY
-DOMAIN-SUFFIX,t.co,PROXY
-DOMAIN-SUFFIX,tweetdeck.com,PROXY
-DOMAIN-SUFFIX,twimg.co,PROXY
-DOMAIN-SUFFIX,twimg.com,PROXY
-DOMAIN-SUFFIX,twitpic.com,PROXY
-DOMAIN-SUFFIX,twitter.com,PROXY
-DOMAIN-SUFFIX,twitter.jp,PROXY
-DOMAIN-SUFFIX,vine.co,PROXY
-# > Wikimedia Foundation
-DOMAIN-SUFFIX,mediawiki.org,PROXY
-DOMAIN-SUFFIX,wikibooks.org,PROXY
-DOMAIN-SUFFIX,wikidata.org,PROXY
-DOMAIN-SUFFIX,wikileaks.org,PROXY
-DOMAIN-SUFFIX,wikimedia.org,PROXY
-DOMAIN-SUFFIX,wikimediafoundation.org,PROXY
-DOMAIN-SUFFIX,wikinews.org,PROXY
-DOMAIN-SUFFIX,wikipedia.org,PROXY
-DOMAIN-SUFFIX,wikiquote.org,PROXY
-DOMAIN-SUFFIX,wikisource.org,PROXY
-DOMAIN-SUFFIX,wikiversity.org,PROXY
-DOMAIN-SUFFIX,wikivoyage.org,PROXY
-DOMAIN-SUFFIX,wiktionary.org,PROXY
-# > Yahoo
-DOMAIN-SUFFIX,yahoo.com,PROXY
-DOMAIN,search.yahoo.co.jp,PROXY
-# > Yandex
-DOMAIN-SUFFIX,yadi.sk,PROXY
-DOMAIN,disk.yandex.com,PROXY
-
-# (Region-Restricted Access Denied)
-DOMAIN-SUFFIX,aicoin.com,PROXY
-DOMAIN-SUFFIX,aimoon.com,PROXY
-DOMAIN-SUFFIX,engadget.com,PROXY
-DOMAIN-SUFFIX,ifixit.com,PROXY
-DOMAIN-SUFFIX,terabox.com,PROXY
-DOMAIN-SUFFIX,zaobao.com.sg,PROXY
-DOMAIN,addons.mozilla.org,PROXY
-DOMAIN,wego.here.com,PROXY
-# > Alphabet
-DOMAIN-SUFFIX,go.dev,PROXY
-DOMAIN-SUFFIX,golang.org,PROXY
-# ---(Apple)---
-DOMAIN-SUFFIX,appsto.re,PROXY
-DOMAIN-SUFFIX,smoot.apple.com,PROXY
-DOMAIN,amp-api.podcasts.apple.com,PROXY
-DOMAIN,beta.music.apple.com,PROXY
-DOMAIN,books.itunes.apple.com,PROXY
-DOMAIN,lookup-api.apple.com,PROXY
-DOMAIN,radio.itunes.apple.com,PROXY
-# > Web Preview
-DOMAIN,apps.apple.com,PROXY
-DOMAIN,books.apple.com,PROXY
-DOMAIN,itunes.apple.com,PROXY
-DOMAIN,tv.apple.com,PROXY
-# > News
-DOMAIN,gateway.icloud.com,PROXY
-DOMAIN-SUFFIX,apple.news,PROXY
-DOMAIN,news-assets.apple.com,PROXY
-DOMAIN,news-client.apple.com,PROXY
-DOMAIN,news-client-search.apple.com,PROXY
-DOMAIN,news-edge.apple.com,PROXY
-DOMAIN,news-events.apple.com,PROXY
-DOMAIN,apple.comscoreresearch.com,PROXY
-# ------
-# > Microsoft
-DOMAIN-SUFFIX,bing.com,PROXY
-DOMAIN-SUFFIX,linkedin.com,PROXY
-DOMAIN-SUFFIX,licdn.com,PROXY
-DOMAIN-SUFFIX,msn.com,PROXY
-DOMAIN-SUFFIX,skype.com,PROXY
+HOST, a771.dscq.akamai.net, Global
+HOST, addons.mozilla.org, Global
+HOST, amp-api.podcasts.apple.com, Global
+HOST, api.ndsxfkjfvhzdsfio.quest, Global
+HOST, api.revenuecat.com, Global
+HOST, apple.comscoreresearch.com, Global
+HOST, apps.apple.com, Global
+HOST, assets1.xboxlive.com, Global
+HOST, assets2.xboxlive.com, Global
+HOST, az416426.vo.msecnd.net, Global
+HOST, az668014.vo.msecnd.net, Global
+HOST, bbs.imoutolove.me, Global
+HOST, beta.music.apple.com, Global
+HOST, books.apple.com, Global
+HOST, books.itunes.apple.com, Global
+HOST, cdn.iframe.ly, Global
+HOST, cdn.polyfill.io, Global
+HOST, cloud-cdn-digitalocean-com.global.ssl.fastly.net, Global
+HOST, clubhouse.pubnubapi.com, Global
+HOST, dhh.lol, Global
+HOST, disk.yandex.com, Global
+HOST, dy.sbgfw.info, Global
+HOST, gateway.icloud.com, Global
+HOST, github.global.ssl.fastly.net, Global
+HOST, http-inputs-notion.splunkcloud.com, Global
+HOST, ikuuu.co, Global
+HOST, in.appcenter.ms, Global
+HOST, itunes.apple.com, Global
+HOST, lab.skk.moe, Global
+HOST, lookup-api.apple.com, Global
+HOST, news-assets.apple.com, Global
+HOST, news-client-search.apple.com, Global
+HOST, news-client.apple.com, Global
+HOST, news-edge.apple.com, Global
+HOST, news-events.apple.com, Global
+HOST, nytimes.map.fastly.net, Global
+HOST, ocsp.int-x3.letsencrypt.org, Global
+HOST, radio.itunes.apple.com, Global
+HOST, rss.teacat001.xyz, Global
+HOST, sessions.bugsnag.com, Global
+HOST, statuse.digitalcertvalidation.com, Global
+HOST, steambroadcast.akamaized.net, Global
+HOST, steamcdn-a.akamaihd.net, Global
+HOST, steamcommunity-a.akamaihd.net, Global
+HOST, steampipe.akamaized.net, Global
+HOST, steamstore-a.akamaihd.net, Global
+HOST, steamusercontent-a.akamaihd.net, Global
+HOST, steamuserimages-a.akamaihd.net, Global
+HOST, sub-store.vercel.app, Global
+HOST, surge.mitsea.com, Global
+HOST, teacat.cloud, Global
+HOST, testflight.apple.com, Global
+HOST, tv.apple.com, Global
+HOST, wego.here.com, Global
+HOST, www.efcloud.net, Global
+HOST, www.south-plus.net, Global
+HOST, www.summer-plus.net, Global
+HOST-SUFFIX, 1e100.net, Global
+HOST-SUFFIX, 1password.com, Global
+HOST-SUFFIX, 2mdn.net, Global
+HOST-SUFFIX, 4sqi.net, Global
+HOST-SUFFIX, 8teenxxx.com, Global
+HOST-SUFFIX, 9cache.com, Global
+HOST-SUFFIX, 9gag.com, Global
+HOST-SUFFIX, a248.e.akamai.net, Global
+HOST-SUFFIX, abc.com, Global
+HOST-SUFFIX, abc.xyz, Global
+HOST-SUFFIX, accountkit.com, Global
+HOST-SUFFIX, adguard.com, Global
+HOST-SUFFIX, adguard.org, Global
+HOST-SUFFIX, admob.com, Global
+HOST-SUFFIX, adsense.com, Global
+HOST-SUFFIX, adtidy.org, Global
+HOST-SUFFIX, advertisercommunity.com, Global
+HOST-SUFFIX, aex.com, Global
+HOST-SUFFIX, ahcdn.com, Global
+HOST-SUFFIX, ai.com, Global
+HOST-SUFFIX, aicoin.com, Global
+HOST-SUFFIX, aimoon.com, Global
+HOST-SUFFIX, aka.ms, Global
+HOST-SUFFIX, amazon.com, Global
+HOST-SUFFIX, amazonaws.com, Global
+HOST-SUFFIX, amazontrust.com, Global
+HOST-SUFFIX, amplitude.com, Global
+HOST-SUFFIX, ampproject.org, Global
+HOST-SUFFIX, anchor.fm, Global
+HOST-SUFFIX, android.com, Global
+HOST-SUFFIX, androidify.com, Global
+HOST-SUFFIX, androidtv.com, Global
+HOST-SUFFIX, aolcdn.com, Global
+HOST-SUFFIX, apache.org, Global
+HOST-SUFFIX, api.ai, Global
+HOST-SUFFIX, apigee.com, Global
+HOST-SUFFIX, apkmirror.com, Global
+HOST-SUFFIX, apkpure.com, Global
+HOST-SUFFIX, app-measurement.com, Global
+HOST-SUFFIX, app-measurement.net, Global
+HOST-SUFFIX, apple.news, Global
+HOST-SUFFIX, appsflyer.com, Global
+HOST-SUFFIX, appsflyersdk.com, Global
+HOST-SUFFIX, appspot.com, Global
+HOST-SUFFIX, appsto.re, Global
+HOST-SUFFIX, archive.fo, Global
+HOST-SUFFIX, archive.org, Global
+HOST-SUFFIX, archive.ph, Global
+HOST-SUFFIX, archiveofourown.org, Global
+HOST-SUFFIX, armorgames.com, Global
+HOST-SUFFIX, artstation.com, Global
+HOST-SUFFIX, ask.com, Global
+HOST-SUFFIX, aspnetcdn.com, Global
+HOST-SUFFIX, avg.com, Global
+HOST-SUFFIX, awsstatic.com, Global
+HOST-SUFFIX, axios.com, Global
+HOST-SUFFIX, azureedge.net, Global
+HOST-SUFFIX, azurewebsites.net, Global
+HOST-SUFFIX, bandcamp.com, Global
+HOST-SUFFIX, bandwagonHOST.com, Global
+HOST-SUFFIX, bcvcdn.com, Global
+HOST-SUFFIX, behance.net, Global
+HOST-SUFFIX, bibox.com, Global
+HOST-SUFFIX, binance.cc, Global
+HOST-SUFFIX, binance.com, Global
+HOST-SUFFIX, binance.me, Global
+HOST-SUFFIX, binance.us, Global
+HOST-SUFFIX, bing.com, Global
+HOST-SUFFIX, bit.ly, Global
+HOST-SUFFIX, bit.no.com, Global
+HOST-SUFFIX, bitcointalk.org, Global
+HOST-SUFFIX, bitfinex.com, Global
+HOST-SUFFIX, bithumb.com, Global
+HOST-SUFFIX, bitmex.com, Global
+HOST-SUFFIX, bitstamp.net, Global
+HOST-SUFFIX, bittrex.com, Global
+HOST-SUFFIX, bkrtx.com, Global
+HOST-SUFFIX, blogblog.com, Global
+HOST-SUFFIX, blogcdn.com, Global
+HOST-SUFFIX, blogger.com, Global
+HOST-SUFFIX, bloglovin.com, Global
+HOST-SUFFIX, blogsmithmedia.com, Global
+HOST-SUFFIX, blogspot.com, Global
+HOST-SUFFIX, bloomberg.cn, Global
+HOST-SUFFIX, bloomberg.com, Global
+HOST-SUFFIX, bloomberg.de, Global
+HOST-SUFFIX, bloombergview.com, Global
+HOST-SUFFIX, blubrry.com, Global
+HOST-SUFFIX, bongacams.com, Global
+HOST-SUFFIX, box.com, Global
+HOST-SUFFIX, branch.io, Global
+HOST-SUFFIX, brave.com, Global
+HOST-SUFFIX, btlibrary.me, Global
+HOST-SUFFIX, bullguard.com, Global
+HOST-SUFFIX, bybit.com, Global
+HOST-SUFFIX, c-span.org, Global
+HOST-SUFFIX, cachefly.net, Global
+HOST-SUFFIX, castbox.fm, Global
+HOST-SUFFIX, cdninstagram.com, Global
+HOST-SUFFIX, cdnst.net, Global
+HOST-SUFFIX, change.org, Global
+HOST-SUFFIX, chaturbate.com, Global
+HOST-SUFFIX, chrome.com, Global
+HOST-SUFFIX, chromium.org, Global
+HOST-SUFFIX, cloudcone.com, Global
+HOST-SUFFIX, cloudflare-dns.com, Global
+HOST-SUFFIX, cloudflare.com, Global
+HOST-SUFFIX, cloudfront.net, Global
+HOST-SUFFIX, clubhouseapi.com, Global
+HOST-SUFFIX, clyp.it, Global
+HOST-SUFFIX, coinbase.com, Global
+HOST-SUFFIX, coincheck.com, Global
+HOST-SUFFIX, coingecko.com, Global
+HOST-SUFFIX, coinmarketcap.com, Global
+HOST-SUFFIX, colamanhua.com, Global
+HOST-SUFFIX, comodoca.com, Global
+HOST-SUFFIX, coursehero.com, Global
+HOST-SUFFIX, dailymotion.com, Global
+HOST-SUFFIX, daum.net, Global
+HOST-SUFFIX, day.app, Global
+HOST-SUFFIX, dditscdn.com, Global
+HOST-SUFFIX, deadline.com, Global
+HOST-SUFFIX, debug.com, Global
+HOST-SUFFIX, depositphotos.com, Global
+HOST-SUFFIX, deskconnect.com, Global
+HOST-SUFFIX, deviantart.com, Global
+HOST-SUFFIX, deviantart.net, Global
+HOST-SUFFIX, dialogflow.com, Global
+HOST-SUFFIX, disconnect.me, Global
+HOST-SUFFIX, discord.co, Global
+HOST-SUFFIX, discord.com, Global
+HOST-SUFFIX, discord.gg, Global
+HOST-SUFFIX, discord.media, Global
+HOST-SUFFIX, discordapp.com, Global
+HOST-SUFFIX, discordapp.net, Global
+HOST-SUFFIX, disqus.com, Global
+HOST-SUFFIX, disquscdn.com, Global
+HOST-SUFFIX, dlive.tv, Global
+HOST-SUFFIX, docker.com, Global
+HOST-SUFFIX, dowjones.com, Global
+HOST-SUFFIX, dropbox.com, Global
+HOST-SUFFIX, dropboxapi.com, Global
+HOST-SUFFIX, dropboxstatic.com, Global
+HOST-SUFFIX, dropboxusercontent.com, Global
+HOST-SUFFIX, dubox.com, Global
+HOST-SUFFIX, duckduckgo.com, Global
+HOST-SUFFIX, earthcam.com, Global
+HOST-SUFFIX, economist.com, Global
+HOST-SUFFIX, edgecastcdn.net, Global
+HOST-SUFFIX, edgekey.net, Global
+HOST-SUFFIX, edgesuite.net, Global
+HOST-SUFFIX, edx-cdn.org, Global
+HOST-SUFFIX, elastic.co, Global
+HOST-SUFFIX, elastic.com, Global
+HOST-SUFFIX, encyclopedia.com, Global
+HOST-SUFFIX, engadget.com, Global
+HOST-SUFFIX, esm.run, Global
+HOST-SUFFIX, etherscan.io, Global
+HOST-SUFFIX, eu, Global
+HOST-SUFFIX, eurekavpt.com, Global
+HOST-SUFFIX, f8.com, Global
+HOST-SUFFIX, facebook.com, Global
+HOST-SUFFIX, facebookmail.com, Global
+HOST-SUFFIX, fanatical.com, Global
+HOST-SUFFIX, fastmail.com, Global
+HOST-SUFFIX, fb.com, Global
+HOST-SUFFIX, fb.me, Global
+HOST-SUFFIX, fb.watch, Global
+HOST-SUFFIX, fbaddins.com, Global
+HOST-SUFFIX, fbcdn.com, Global
+HOST-SUFFIX, fbcdn.net, Global
+HOST-SUFFIX, fbsbx.com, Global
+HOST-SUFFIX, fbworkmail.com, Global
+HOST-SUFFIX, feedburner.com, Global
+HOST-SUFFIX, feeder.co, Global
+HOST-SUFFIX, feedly.com, Global
+HOST-SUFFIX, fileball.app, Global
+HOST-SUFFIX, firebaseio.com, Global
+HOST-SUFFIX, flickr.com, Global
+HOST-SUFFIX, flipboard.com, Global
+HOST-SUFFIX, flitto.com, Global
+HOST-SUFFIX, flzbcdn.xyz, Global
+HOST-SUFFIX, foreignaffairs.com, Global
+HOST-SUFFIX, foreignpolicy.com, Global
+HOST-SUFFIX, freetls.fastly.net, Global
+HOST-SUFFIX, ft.com, Global
+HOST-SUFFIX, ftchinese.com, Global
+HOST-SUFFIX, ftimg.net, Global
+HOST-SUFFIX, ftx.com, Global
+HOST-SUFFIX, g.co, Global
+HOST-SUFFIX, gameloft.com, Global
+HOST-SUFFIX, garena.com, Global
+HOST-SUFFIX, gate.io, Global
+HOST-SUFFIX, gcr.io, Global
+HOST-SUFFIX, gemini.com, Global
+HOST-SUFFIX, genius.com, Global
+HOST-SUFFIX, getoutline.org, Global
+HOST-SUFFIX, getsync.com, Global
+HOST-SUFFIX, gfw.report, Global
+HOST-SUFFIX, gfx.ms, Global
+HOST-SUFFIX, ggpht.com, Global
+HOST-SUFFIX, git.io, Global
+HOST-SUFFIX, githack.com, Global
+HOST-SUFFIX, github.blog, Global
+HOST-SUFFIX, github.com, Global
+HOST-SUFFIX, github.io, Global
+HOST-SUFFIX, githubapp.com, Global
+HOST-SUFFIX, githubassets.com, Global
+HOST-SUFFIX, githubusercontent.com, Global
+HOST-SUFFIX, gitlab.com, Global
+HOST-SUFFIX, gitlab.io, Global
+HOST-SUFFIX, gmail.com, Global
+HOST-SUFFIX, gmodules.com, Global
+HOST-SUFFIX, go.dev, Global
+HOST-SUFFIX, golang.org, Global
+HOST-SUFFIX, gongm.in, Global
+HOST-SUFFIX, goo.gl, Global
+HOST-SUFFIX, goog, Global
+HOST-SUFFIX, googleapis.cn, Global
+HOST-SUFFIX, googleapis.com, Global
+HOST-SUFFIX, graphql.org, Global
+HOST-SUFFIX, gravatar.com, Global
+HOST-SUFFIX, gstatic.cn, Global
+HOST-SUFFIX, gstatic.com, Global
+HOST-SUFFIX, gvt0.com, Global
+HOST-SUFFIX, gvt1.com, Global
+HOST-SUFFIX, gvt3.com, Global
+HOST-SUFFIX, hackmd.io, Global
+HOST-SUFFIX, heroku.com, Global
+HOST-SUFFIX, hk, Global
+HOST-SUFFIX, hket.com, Global
+HOST-SUFFIX, hockeyapp.net, Global
+HOST-SUFFIX, hoyolab.com, Global
+HOST-SUFFIX, huffpost.com, Global
+HOST-SUFFIX, humblebundle.com, Global
+HOST-SUFFIX, huobi.com, Global
+HOST-SUFFIX, i-cable.com, Global
+HOST-SUFFIX, icntv.xyz, Global
+HOST-SUFFIX, ifixit.com, Global
+HOST-SUFFIX, imgur.com, Global
+HOST-SUFFIX, ingest.sentry.io, Global
+HOST-SUFFIX, inoreader.com, Global
+HOST-SUFFIX, instagr.am, Global
+HOST-SUFFIX, instagram.com, Global
+HOST-SUFFIX, io.io, Global
+HOST-SUFFIX, ip138.com, Global
+HOST-SUFFIX, is.gd, Global
+HOST-SUFFIX, issuu.com, Global
+HOST-SUFFIX, istockphoto.com, Global
+HOST-SUFFIX, itasoftware.com, Global
+HOST-SUFFIX, ixquick.com, Global
+HOST-SUFFIX, javbus.com, Global
+HOST-SUFFIX, jitpack.io, Global
+HOST-SUFFIX, joinclubhouse.com, Global
+HOST-SUFFIX, jp, Global
+HOST-SUFFIX, jsdelivr.com, Global
+HOST-SUFFIX, jsdelivr.net, Global
+HOST-SUFFIX, justpaste.it, Global
+HOST-SUFFIX, kakao.com, Global
+HOST-SUFFIX, kakaocdn.net, Global
+HOST-SUFFIX, kat.cr, Global
+HOST-SUFFIX, kik.com, Global
+HOST-SUFFIX, kobo.com, Global
+HOST-SUFFIX, kobobooks.com, Global
+HOST-SUFFIX, kr, Global
+HOST-SUFFIX, kraken.com, Global
+HOST-SUFFIX, kucoin.com, Global
+HOST-SUFFIX, legra.ph, Global
+HOST-SUFFIX, lencr.org, Global
+HOST-SUFFIX, licdn.com, Global
+HOST-SUFFIX, lin.ee, Global
+HOST-SUFFIX, line-apps.com, Global
+HOST-SUFFIX, line-cdn.net, Global
+HOST-SUFFIX, line-scdn.net, Global
+HOST-SUFFIX, line.me, Global
+HOST-SUFFIX, linkedin.com, Global
+HOST-SUFFIX, liquid.com, Global
+HOST-SUFFIX, listennotes.com, Global
+HOST-SUFFIX, live.net, Global
+HOST-SUFFIX, livefilestore.com, Global
+HOST-SUFFIX, livejasmin.com, Global
+HOST-SUFFIX, livestream.com, Global
+HOST-SUFFIX, llnwd.net, Global
+HOST-SUFFIX, m.me, Global
+HOST-SUFFIX, macrumors.com, Global
+HOST-SUFFIX, mailchimp.com, Global
+HOST-SUFFIX, matrix.org, Global
+HOST-SUFFIX, maven.org, Global
+HOST-SUFFIX, mediawiki.org, Global
+HOST-SUFFIX, medibang.com, Global
+HOST-SUFFIX, medium.com, Global
+HOST-SUFFIX, mega.co.nz, Global
+HOST-SUFFIX, mega.io, Global
+HOST-SUFFIX, mega.nz, Global
+HOST-SUFFIX, megaupload.com, Global
+HOST-SUFFIX, mess-lab.com, Global
+HOST-SUFFIX, messenger.com, Global
+HOST-SUFFIX, mixlr.com, Global
+HOST-SUFFIX, mixpanel.com, Global
+HOST-SUFFIX, moon.fm, Global
+HOST-SUFFIX, msn.com, Global
+HOST-SUFFIX, mubi.com, Global
+HOST-SUFFIX, mvnrepository.com, Global
+HOST-SUFFIX, myspace.com, Global
+HOST-SUFFIX, myspacecdn.com, Global
+HOST-SUFFIX, myteamspeak.com, Global
+HOST-SUFFIX, nbcnews.com, Global
+HOST-SUFFIX, neowin.net, Global
+HOST-SUFFIX, netdna-cdn.com, Global
+HOST-SUFFIX, neulion.com, Global
+HOST-SUFFIX, newstatesman.com, Global
+HOST-SUFFIX, newsweek.com, Global
+HOST-SUFFIX, newyorker.com, Global
+HOST-SUFFIX, newyorktimes.com, Global
+HOST-SUFFIX, nhentai.net, Global
+HOST-SUFFIX, nintendo.net, Global
+HOST-SUFFIX, notion-static.com, Global
+HOST-SUFFIX, notion.com, Global
+HOST-SUFFIX, notion.new, Global
+HOST-SUFFIX, notion.site, Global
+HOST-SUFFIX, notion.so, Global
+HOST-SUFFIX, now.com, Global
+HOST-SUFFIX, nsstatic.net, Global
+HOST-SUFFIX, nssurge.com, Global
+HOST-SUFFIX, nyt.com, Global
+HOST-SUFFIX, nytco.com, Global
+HOST-SUFFIX, nytimes.com, Global
+HOST-SUFFIX, nytimg.com, Global
+HOST-SUFFIX, nytlog.com, Global
+HOST-SUFFIX, nytstyle.com, Global
+HOST-SUFFIX, ocsp.sectigo.com, Global
+HOST-SUFFIX, oculus.com, Global
+HOST-SUFFIX, oculuscdn.com, Global
+HOST-SUFFIX, ok.ru, Global
+HOST-SUFFIX, okex.com, Global
+HOST-SUFFIX, okx.com, Global
+HOST-SUFFIX, omny.fm, Global
+HOST-SUFFIX, on2.com, Global
+HOST-SUFFIX, onedrive.com, Global
+HOST-SUFFIX, onedrive.live.com, Global
+HOST-SUFFIX, openai.com, Global
+HOST-SUFFIX, openvpn.net, Global
+HOST-SUFFIX, outbound.io, Global
+HOST-SUFFIX, owltail.com, Global
+HOST-SUFFIX, oxfordscholarship.com, Global
+HOST-SUFFIX, parsevideo.com, Global
+HOST-SUFFIX, paste.ee, Global
+HOST-SUFFIX, pastie.org, Global
+HOST-SUFFIX, pcloud.com, Global
+HOST-SUFFIX, peing.net, Global
+HOST-SUFFIX, periscope.tv, Global
+HOST-SUFFIX, photos.live.com, Global
+HOST-SUFFIX, picjs.xyz, Global
+HOST-SUFFIX, ping.pe, Global
+HOST-SUFFIX, pinimg.com, Global
+HOST-SUFFIX, pinterest.com, Global
+HOST-SUFFIX, pixiv.net, Global
+HOST-SUFFIX, pixiv.org, Global
+HOST-SUFFIX, playartifact.com, Global
+HOST-SUFFIX, player.fm, Global
+HOST-SUFFIX, podbean.com, Global
+HOST-SUFFIX, poloniex.com, Global
+HOST-SUFFIX, potato.im, Global
+HOST-SUFFIX, prfct.co, Global
+HOST-SUFFIX, prism-break.org, Global
+HOST-SUFFIX, privoxy.org, Global
+HOST-SUFFIX, proxifier.com, Global
+HOST-SUFFIX, pscp.tv, Global
+HOST-SUFFIX, pximg.net, Global
+HOST-SUFFIX, quantumult.app, Global
+HOST-SUFFIX, quay.io, Global
+HOST-SUFFIX, quora.com, Global
+HOST-SUFFIX, quoracdn.net, Global
+HOST-SUFFIX, qz.com, Global
+HOST-SUFFIX, radioline.co, Global
+HOST-SUFFIX, rdtcdn.com, Global
+HOST-SUFFIX, reabble.com, Global
+HOST-SUFFIX, readdle.com, Global
+HOST-SUFFIX, readyatdawn.com, Global
+HOST-SUFFIX, recaptcha.net, Global
+HOST-SUFFIX, redd.it, Global
+HOST-SUFFIX, reddit.com, Global
+HOST-SUFFIX, redditlist.com, Global
+HOST-SUFFIX, redditmedia.com, Global
+HOST-SUFFIX, redditstatic.com, Global
+HOST-SUFFIX, redhat.com, Global
+HOST-SUFFIX, redtube.com, Global
+HOST-SUFFIX, resilio.com, Global
+HOST-SUFFIX, reuters.com, Global
+HOST-SUFFIX, reutersmedia.net, Global
+HOST-SUFFIX, rocksdb.org, Global
+HOST-SUFFIX, rsshub.app, Global
+HOST-SUFFIX, safebrowsing.apple, Global
+HOST-SUFFIX, sb-cd.com, Global
+HOST-SUFFIX, schema.org, Global
+HOST-SUFFIX, scmp.com, Global
+HOST-SUFFIX, scorecardresearch.com, Global
+HOST-SUFFIX, scribd.com, Global
+HOST-SUFFIX, search.com, Global
+HOST-SUFFIX, sfx.ms, Global
+HOST-SUFFIX, sg, Global
+HOST-SUFFIX, shadowsocks.org, Global
+HOST-SUFFIX, shutterstock.com, Global
+HOST-SUFFIX, signal.org, Global
+HOST-SUFFIX, sketchappsources.com, Global
+HOST-SUFFIX, skydrive.wns.windows.com, Global
+HOST-SUFFIX, skype.com, Global
+HOST-SUFFIX, slack-edge.com, Global
+HOST-SUFFIX, slideshare.net, Global
+HOST-SUFFIX, smartdnsproxy.com, Global
+HOST-SUFFIX, smartmailcloud.com, Global
+HOST-SUFFIX, smh.com.au, Global
+HOST-SUFFIX, smoot.apple.com, Global
+HOST-SUFFIX, sonatype.org, Global
+HOST-SUFFIX, sourcegraph.com, Global
+HOST-SUFFIX, spankbang.com, Global
+HOST-SUFFIX, speakerdeck.com, Global
+HOST-SUFFIX, spideroak.com, Global
+HOST-SUFFIX, spiegel.de, Global
+HOST-SUFFIX, spoprod-a.akamaihd.net, Global
+HOST-SUFFIX, sprig.com, Global
+HOST-SUFFIX, spring.io, Global
+HOST-SUFFIX, spring.net, Global
+HOST-SUFFIX, stackoverflow.com, Global
+HOST-SUFFIX, startpage.com, Global
+HOST-SUFFIX, stash-activation.com, Global
+HOST-SUFFIX, stash.wiki, Global
+HOST-SUFFIX, stash.ws, Global
+HOST-SUFFIX, static-economist.com, Global
+HOST-SUFFIX, staticflickr.com, Global
+HOST-SUFFIX, statsig.com, Global
+HOST-SUFFIX, steam-chat.com, Global
+HOST-SUFFIX, steamcommunity.com, Global
+HOST-SUFFIX, steamgames.com, Global
+HOST-SUFFIX, steampowered.com, Global
+HOST-SUFFIX, steamserver.net, Global
+HOST-SUFFIX, steamstat.us, Global
+HOST-SUFFIX, steamstatic.com, Global
+HOST-SUFFIX, steemit.com, Global
+HOST-SUFFIX, storage.live.com, Global
+HOST-SUFFIX, straitstimes.com, Global
+HOST-SUFFIX, streamable.com, Global
+HOST-SUFFIX, streaming.mediaservices.windows.net, Global
+HOST-SUFFIX, substack.com, Global
+HOST-SUFFIX, surge-activation.com, Global
+HOST-SUFFIX, sushi.com, Global
+HOST-SUFFIX, swissinfo.ch, Global
+HOST-SUFFIX, symauth.com, Global
+HOST-SUFFIX, symcb.com, Global
+HOST-SUFFIX, symcd.com, Global
+HOST-SUFFIX, t.co, Global
+HOST-SUFFIX, t.me, Global
+HOST-SUFFIX, t66y.com, Global
+HOST-SUFFIX, tap.io, Global
+HOST-SUFFIX, tapatalk.com, Global
+HOST-SUFFIX, tdesktop.com, Global
+HOST-SUFFIX, techspot.com, Global
+HOST-SUFFIX, teddysun.com, Global
+HOST-SUFFIX, telegra.ph, Global
+HOST-SUFFIX, telegram.me, Global
+HOST-SUFFIX, telegram.org, Global
+HOST-SUFFIX, telesco.pe, Global
+HOST-SUFFIX, tenor.com, Global
+HOST-SUFFIX, tensorflow.org, Global
+HOST-SUFFIX, terabox.com, Global
+HOST-SUFFIX, teraboxcdn.com, Global
+HOST-SUFFIX, textnow.com, Global
+HOST-SUFFIX, textnow.me, Global
+HOST-SUFFIX, tfhub.dev, Global
+HOST-SUFFIX, theage.com.au, Global
+HOST-SUFFIX, theatlantic.com, Global
+HOST-SUFFIX, theaustralian.com.au, Global
+HOST-SUFFIX, theconversation.com, Global
+HOST-SUFFIX, thediplomat.com, Global
+HOST-SUFFIX, thefacebook.com, Global
+HOST-SUFFIX, theguardian.com, Global
+HOST-SUFFIX, theinitium.com, Global
+HOST-SUFFIX, themoviedb.org, Global
+HOST-SUFFIX, thepiratebay.org, Global
+HOST-SUFFIX, thetvdb.com, Global
+HOST-SUFFIX, tiltbrush.com, Global
+HOST-SUFFIX, time.com, Global
+HOST-SUFFIX, tineye.com, Global
+HOST-SUFFIX, tiny.cc, Global
+HOST-SUFFIX, tmagazine.com, Global
+HOST-SUFFIX, torproject.org, Global
+HOST-SUFFIX, tradingview.com, Global
+HOST-SUFFIX, trustasiassl.com, Global
+HOST-SUFFIX, tumbex.com, Global
+HOST-SUFFIX, tumblr.co, Global
+HOST-SUFFIX, tumblr.com, Global
+HOST-SUFFIX, turbobit.net, Global
+HOST-SUFFIX, tutanota.com, Global
+HOST-SUFFIX, tw, Global
+HOST-SUFFIX, twdvd.com, Global
+HOST-SUFFIX, tweetdeck.com, Global
+HOST-SUFFIX, twimg.co, Global
+HOST-SUFFIX, twimg.com, Global
+HOST-SUFFIX, twimg.org, Global
+HOST-SUFFIX, twitpic.com, Global
+HOST-SUFFIX, twitter.com, Global
+HOST-SUFFIX, txmblr.com, Global
+HOST-SUFFIX, uk, Global
+HOST-SUFFIX, underlords.com, Global
+HOST-SUFFIX, uniswap.org, Global
+HOST-SUFFIX, unsplash.com, Global
+HOST-SUFFIX, urbandictionary.com, Global
+HOST-SUFFIX, usertrust.com, Global
+HOST-SUFFIX, ustream.tv, Global
+HOST-SUFFIX, v2ex.com, Global
+HOST-SUFFIX, valvesoftware.com, Global
+HOST-SUFFIX, venturebeat.com, Global
+HOST-SUFFIX, viber.com, Global
+HOST-SUFFIX, videopress.com, Global
+HOST-SUFFIX, vikacg.com, Global
+HOST-SUFFIX, vimeo.com, Global
+HOST-SUFFIX, vine.co, Global
+HOST-SUFFIX, vox-cdn.com, Global
+HOST-SUFFIX, voxer.com, Global
+HOST-SUFFIX, vzw.com, Global
+HOST-SUFFIX, washingtonpost.com, Global
+HOST-SUFFIX, wattpad.com, Global
+HOST-SUFFIX, waymo.com, Global
+HOST-SUFFIX, web.dev, Global
+HOST-SUFFIX, webmproject.org, Global
+HOST-SUFFIX, webrtc.org, Global
+HOST-SUFFIX, welt.de, Global
+HOST-SUFFIX, whatsapp.com, Global
+HOST-SUFFIX, whatsapp.net, Global
+HOST-SUFFIX, whoer.net, Global
+HOST-SUFFIX, widevine.com, Global
+HOST-SUFFIX, wikibooks.org, Global
+HOST-SUFFIX, wikidata.org, Global
+HOST-SUFFIX, wikileaks.org, Global
+HOST-SUFFIX, wikimapia.org, Global
+HOST-SUFFIX, wikimedia.org, Global
+HOST-SUFFIX, wikimediafoundation.org, Global
+HOST-SUFFIX, wikinews.org, Global
+HOST-SUFFIX, wikipedia.org, Global
+HOST-SUFFIX, wikiquote.org, Global
+HOST-SUFFIX, wikisource.org, Global
+HOST-SUFFIX, wikiversity.org, Global
+HOST-SUFFIX, wikivoyage.org, Global
+HOST-SUFFIX, wikiwand.com, Global
+HOST-SUFFIX, wiktionary.org, Global
+HOST-SUFFIX, wire.com, Global
+HOST-SUFFIX, wireguard.com, Global
+HOST-SUFFIX, wn.com, Global
+HOST-SUFFIX, wordpress.com, Global
+HOST-SUFFIX, worldcat.org, Global
+HOST-SUFFIX, wsj.com, Global
+HOST-SUFFIX, wsj.net, Global
+HOST-SUFFIX, x.co, Global
+HOST-SUFFIX, xhamster.com, Global
+HOST-SUFFIX, xn--ngstr-lra8j.com, Global
+HOST-SUFFIX, xnxx-cdn.com, Global
+HOST-SUFFIX, xnxx.com, Global
+HOST-SUFFIX, xvideos-cdn.com, Global
+HOST-SUFFIX, xvideos.com, Global
+HOST-SUFFIX, yadi.sk, Global
+HOST-SUFFIX, yahoo.com, Global
+HOST-SUFFIX, yandex.ru, Global
+HOST-SUFFIX, you-get.org, Global
+HOST-SUFFIX, ypncdn.com, Global
+HOST-SUFFIX, z-lib.org, Global
+HOST-SUFFIX, zaobao.com, Global
+HOST-SUFFIX, zb.com, Global
+HOST-SUFFIX, zdassets.com, Global
+HOST-SUFFIX, zdusercontent.com, Global
+HOST-SUFFIX, zello.com, Global
+HOST-SUFFIX, zendesk.com, Global
+HOST-SUFFIX, zeronet.io, Global
+HOST-SUFFIX, zndsk.com, Global
+HOST-SUFFIX, zophar.net, Global
+HOST-SUFFIX, zopim.com, Global
+HOST-SUFFIX, zynamics.com, Global
+HOST-SUFFIX, zyxel.com, Global
+HOST-keyword, .pinterest., Global
+HOST-keyword, 1drv, Global
+HOST-keyword, 1e100, Global
+HOST-keyword, abema, Global
+HOST-keyword, appledaily, Global
+HOST-keyword, avtb, Global
+HOST-keyword, beetalk, Global
+HOST-keyword, blogspot, Global
+HOST-keyword, dropbox, Global
+HOST-keyword, facebook, Global
+HOST-keyword, fbcdn, Global
+HOST-keyword, github, Global
+HOST-keyword, gmail, Global
+HOST-keyword, google, Global
+HOST-keyword, instagram, Global
+HOST-keyword, onedrive, Global
+HOST-keyword, porn, Global
+HOST-keyword, sci-hub, Global
+HOST-keyword, skydrive, Global
+HOST-keyword, spotify, Global
+HOST-keyword, telegram, Global
+HOST-keyword, twitter, Global
+HOST-keyword, whatsapp, Global
+ip-cidr, 1.201.0.0/24, Global
+ip-cidr, 103.2.28.0/24, Global
+ip-cidr, 103.2.30.0/23, Global
+ip-cidr, 103.246.56.0/22, Global
+ip-cidr, 103.27.148.0/22, Global
+ip-cidr, 103.4.96.0/22, Global
+ip-cidr, 108.168.174.0/16, Global
+ip-cidr, 109.239.140.0/24, Global
+ip-cidr, 110.76.140.0/22, Global
+ip-cidr, 113.61.104.0/22, Global
+ip-cidr, 119.235.224.0/24, Global
+ip-cidr, 119.235.232.0/24, Global
+ip-cidr, 119.235.235.0/24, Global
+ip-cidr, 119.235.236.0/23, Global
+ip-cidr, 120.232.181.162/32, Global
+ip-cidr, 120.241.147.226/32, Global
+ip-cidr, 120.253.253.226/32, Global
+ip-cidr, 120.253.255.162/32, Global
+ip-cidr, 120.253.255.34/32, Global
+ip-cidr, 120.253.255.98/32, Global
+ip-cidr, 125.209.208.0/20, Global
+ip-cidr, 129.134.0.0/17, Global
+ip-cidr, 13.32.0.0/15, Global
+ip-cidr, 13.35.0.0/17, Global
+ip-cidr, 147.92.128.0/17, Global
+ip-cidr, 149.154.160.0/20, Global
+ip-cidr, 157.240.0.0/17, Global
+ip-cidr, 158.85.224.160/27, Global
+ip-cidr, 158.85.46.128/27, Global
+ip-cidr, 158.85.5.192/27, Global
+ip-cidr, 173.192.222.160/27, Global
+ip-cidr, 173.192.231.32/27, Global
+ip-cidr, 173.194.0.0/16, Global
+ip-cidr, 173.252.64.0/18, Global
+ip-cidr, 174.37.243.0/16, Global
+ip-cidr, 179.60.192.0/22, Global
+ip-cidr, 18.184.0.0/15, Global
+ip-cidr, 18.194.0.0/15, Global
+ip-cidr, 18.208.0.0/13, Global
+ip-cidr, 18.232.0.0/14, Global
+ip-cidr, 180.163.150.162/32, Global
+ip-cidr, 180.163.150.34/32, Global
+ip-cidr, 180.163.151.162/32, Global
+ip-cidr, 180.163.151.34/32, Global
+ip-cidr, 184.173.128.0/17, Global
+ip-cidr, 185.60.216.0/22, Global
+ip-cidr, 185.76.151.0/24, Global
+ip-cidr, 203.104.128.0/19, Global
+ip-cidr, 203.104.144.0/21, Global
+ip-cidr, 203.208.39.0/24, Global
+ip-cidr, 203.208.40.0/24, Global
+ip-cidr, 203.208.41.0/24, Global
+ip-cidr, 203.208.43.0/24, Global
+ip-cidr, 203.208.50.0/24, Global
+ip-cidr, 204.15.20.0/22, Global
+ip-cidr, 208.43.122.128/27, Global
+ip-cidr, 220.181.174.162/32, Global
+ip-cidr, 220.181.174.226/32, Global
+ip-cidr, 220.181.174.34/32, Global
+ip-cidr, 27.0.236.0/22, Global
+ip-cidr, 31.13.24.0/21, Global
+ip-cidr, 31.13.64.0/18, Global
+ip-cidr, 34.224.0.0/12, Global
+ip-cidr, 45.64.40.0/22, Global
+ip-cidr, 50.22.198.204/30, Global
+ip-cidr, 52.200.0.0/13, Global
+ip-cidr, 52.58.0.0/15, Global
+ip-cidr, 52.74.0.0/16, Global
+ip-cidr, 52.77.0.0/16, Global
+ip-cidr, 52.84.0.0/15, Global
+ip-cidr, 54.156.0.0/14, Global
+ip-cidr, 54.226.0.0/15, Global
+ip-cidr, 54.230.156.0/22, Global
+ip-cidr, 54.242.0.0/15, Global
+ip-cidr, 54.93.0.0/16, Global
+ip-cidr, 66.220.144.0/20, Global
+ip-cidr, 69.171.224.0/19, Global
+ip-cidr, 69.171.235.0/16, Global
+ip-cidr, 69.63.176.0/20, Global
+ip-cidr, 74.119.76.0/22, Global
+ip-cidr, 74.125.0.0/16, Global
+ip-cidr, 75.126.150.0/16, Global
+ip-cidr, 91.105.192.0/23, Global
+ip-cidr, 91.108.0.0/16, Global
+ip-cidr, 91.108.12.0/22, Global
+ip-cidr, 91.108.16.0/22, Global
+ip-cidr, 91.108.20.0/22, Global
+ip-cidr, 91.108.4.0/22, Global
+ip-cidr, 91.108.56.0/22, Global
+ip-cidr, 91.108.8.0/22, Global
+ip6-cidr, 2001:67c:4e8::/48, Global
+ip6-cidr, 2001:b28:f23c::/48, Global
+ip6-cidr, 2001:b28:f23d::/48, Global
+ip6-cidr, 2001:b28:f23f::/48, Global
+ip6-cidr, 2a0a:f280::/32, Global

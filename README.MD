@@ -13,7 +13,6 @@
 - [@koolson](https://github.com/Koolson)
 - [@KOP-XIAO](https://github.com/KOP-XIAO)
 - [@I-am-R-E](https://github.com/I-am-R-E)
-- 排名不分先后
 
 ### 🧸中心矩阵
 - [@Centralmatrix3](https://github.com/Centralmatrix3)

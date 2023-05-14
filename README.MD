@@ -13,6 +13,9 @@
 - [@koolson](https://github.com/Koolson)
 - [@KOP-XIAO](https://github.com/KOP-XIAO)
 - [@I-am-R-E](https://github.com/I-am-R-E)
+- [@ACL4SSR](https://github.com/ACL4SSR)
+
+- 以上排名不分先后顺序如有遗漏后续再补.
 
 ### 🧸中心矩阵
 - [@Centralmatrix3](https://github.com/Centralmatrix3)

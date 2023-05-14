@@ -1,6 +1,8 @@
 #!name=YouTube去广告
 #!desc=不能与其他YouTube去广告规则混用
-#!author=Maasea
+
+[Rule]
+AND,((PROTOCOL,UDP),(DEST-PORT,443)),REJECT-NO-DROP
 
 [Map Local]
 ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad data="https://raw.githubusercontent.com/kokoryh/Script/master/data/blank.txt" header="Content-Type: application/vnd.yt-ump"

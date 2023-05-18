@@ -1,7 +1,7 @@
 # Scripts And Rules.
 
 ### 🧸中心矩阵
-![](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Matrix/D-001.jpg)
+![](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Matrix/D-001.JPG)
 
 ### 🧸特别说明
  - 本仓库中部分内容仅整理收集于互联网开源项目在此对原作者表示衷心的感谢

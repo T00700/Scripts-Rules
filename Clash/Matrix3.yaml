@@ -1,1 +1,271 @@
+# > 矩阵配置:Clash        Author:Matrix3
+# > 更新时间:2023-05-23 00:41 UTC/GMT +8
 
+# > 混合端口
+mixed-port: 7890
+
+# > 允许局域网
+allow-lan: false
+
+# > 绑定地址
+bind-address: '*'
+
+# > 模式
+mode: rule
+
+# > 日志级别
+log-level: info
+
+# > IPv6
+ipv6: false
+
+# > 外部控制器
+external-controller: 127.0.0.1:9090
+
+# > HOSTS
+hosts:
+  'mtalk.google.com': 108.177.125.188
+  'dl.google.com': 180.163.151.161
+  'dl.l.google.com': 180.163.151.161
+
+# > 配置文件
+profile:
+  store-selected: false
+
+# > DNS
+dns:
+  enable: false
+  listen: 0.0.0.0:53
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  enhanced-mode: redir-host
+  fake-ip-range: 198.18.0.1/16 
+  fake-ip-filter:
+    - '*.lan'
+    - localhost.ptlogin2.qq.com
+    - '+.srv.nintendo.net'
+    - '+.stun.playstation.net'
+    - '+.msftconnecttest.com'
+    - '+.msftncsi.com'
+    - '+.xboxlive.com'
+    - 'msftconnecttest.com'
+    - 'xbox.*.microsoft.com'
+    - '*.battlenet.com.cn'
+    - '*.battlenet.com'
+    - '*.blzstatic.cn'
+    - '*.battle.net'
+  nameserver:
+    - 119.29.29.29
+  fallback-filter:
+    geoip: true
+    ipcidr:
+
+# > 本地节点
+proxies:
+
+# > 订阅节点
+proxy-providers:
+  Proxy:
+    type: http
+    url: "🧸订阅链接🧸"
+    interval: 3600
+    path: ./ProxyList.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+# > 过滤节点
+  HK:
+    filter: 港|HK|(?i)Hong
+    type: file
+    path: ./ProxyList.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+  TW:
+    filter: 台|TW|(?i)Taiwan
+    type: file
+    path: ./ProxyList.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+  SG:
+    filter: 新|狮|獅|SG|(?i)Singapore
+    type: file
+    path: ./ProxyList.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+  JP:
+    filter: 日|JP|(?i)Japan
+    type: file
+    path: ./ProxyList.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+  US:
+    filter: 美|US|(?i)States|American
+    type: file
+    path: ./ProxyList.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+# > 策略组
+proxy-groups:
+  - name: "港台番剧"
+    type: select
+    proxies:
+      - DIRECT
+      - 香港节点
+      - 台湾节点
+
+  - name: "国内影视"
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: "国际媒体"
+    type: select
+    proxies:
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 狮城节点
+      - 美国节点
+
+  - name: "全球加速"
+    type: select
+    proxies:
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 狮城节点
+      - 美国节点
+
+  - name: "黑白名单"
+    type: select
+    proxies:
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 狮城节点
+      - 美国节点
+
+  - name: "香港节点"
+    type: url-test
+    use:
+      - HK
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+
+  - name: "台湾节点"
+    type: url-test
+    use:
+      - TW
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+
+  - name: "日本节点"
+    type: url-test
+    use:
+      - JP
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+
+  - name: "狮城节点"
+    type: url-test
+    use:
+      - SG
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+
+  - name: "美国节点"
+    type: url-test
+    use:
+      - US
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+
+# > 订阅规则
+rule-providers:
+  规则修正:
+    type: http
+    behavior: classical
+    path: ./Rule/Unbreak.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/Unbreak.yaml
+    interval: 86400
+
+  广告拦截:
+    type: http
+    behavior: domain
+    path: ./anti-ad-clash.yaml
+    url: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
+    interval: 86400
+
+  网络测速:
+    type: http
+    behavior: classical
+    path: ./Rule/Speedtest.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/Speedtest.yaml
+    interval: 86400
+
+  国际媒体:
+    type: http
+    behavior: classical
+    path: ./Rule/Streaming.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/Streaming.yaml
+    interval: 86400
+
+  港台番剧:
+    type: http
+    behavior: classical
+    path: ./Rule/StreamingSE.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/StreamingSE.yaml
+    interval: 86400
+
+  国内影视:
+    type: http
+    behavior: classical
+    path: ./Rule/StreamingCN.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/StreamingCN.yaml
+    interval: 86400
+
+  全球加速:
+    type: http
+    behavior: classical
+    path: ./Rule/Global.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/Global.yaml
+    interval: 86400
+
+# > 规则
+rules:
+  - RULE-SET, 规则修正, DIRECT
+  - RULE-SET, 广告拦截, REJECT
+  - RULE-SET, 网络测速, 全球加速
+  - RULE-SET, 国际媒体, 国际媒体
+  - RULE-SET, 港台番剧, 港台番剧
+  - RULE-SET, 国内影视, 国内影视
+  - RULE-SET, 全球加速, 全球加速
+  - IP-CIDR, 192.168.0.0/16, DIRECT
+  - IP-CIDR, 10.0.0.0/8, DIRECT
+  - IP-CIDR, 172.16.0.0/12, DIRECT
+  - IP-CIDR, 127.0.0.0/8, DIRECT
+  - IP-CIDR, 100.64.0.0/10, DIRECT
+  - IP-CIDR, 224.0.0.0/4, DIRECT
+  - IP-CIDR, fe80::/10, DIRECT
+  - IP-CIDR, 119.28.28.28/32, DIRECT
+  - IP-CIDR, 182.254.116.0/24, DIRECT
+  - GEOIP, CN, DIRECT
+  - MATCH, 黑白名单

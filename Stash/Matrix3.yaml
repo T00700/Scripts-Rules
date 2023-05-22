@@ -1,12 +1,12 @@
-# > Stash 矩阵配置 Author:Matrix3
-# > 更新时间:2023-05-01 11:00 UTC/GMT +8
+# > 矩阵配置:Stash        Author:Matrix3
+# > 更新时间:2023-05-23 00:50 UTC/GMT +8
 # > 订阅的信息
-subscribe-url: 🟢订阅链接🔴
+subscribe-url: 🧸订阅链接🧸
 
 # > 远程服务器
 proxy-providers:
   MATRIX-1:
-    url: 🔴订阅链接🟢
+    url: 🧸订阅链接🧸
     interval: 600
 
 proxy-groups:
@@ -228,9 +228,9 @@ rule-providers:
 
 # > 广告拦截
   广告拦截:
-    behavior: classical
+    behavior: domain
     interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml
+    url: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
 
 # > 网络测速
   网络测速:

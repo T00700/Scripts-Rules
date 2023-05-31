@@ -1,5 +1,5 @@
 # 屏蔽 iOS 系统更新
-host,mesu.apple.com
-host,gdmf.apple.com
-host,updates-http.cdn-apple.com
-host,xp.apple.com
+HOST,mesu.apple.com,iOS-Update
+HOST,gdmf.apple.com,iOS-Update
+HOST,updates-http.cdn-apple.com,iOS-Update
+HOST,xp.apple.com,iOS-Update

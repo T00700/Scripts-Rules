@@ -1,0 +1,5 @@
+#!name=全局抓包
+#!desc=GlobalPacketCapture
+
+[MITM]
+hostname =  -*.icloud.com.cn, -*.icloud.com, -*.mzstatic.com, -*.crashlytics.com, -*.facebook.com, -*.instagram.com, -ap-*.spotify.com,  -<ip-address>,  -*apple.com, -*.apple.com, *

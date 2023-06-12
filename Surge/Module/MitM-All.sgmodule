@@ -1,0 +1,5 @@
+#!name=MITM All
+#!desc=解密全部HTTPS流量
+
+[MITM]
+hostname = -*.apple.com, -*.icloud.com, -*.mzstatic.com, *:0

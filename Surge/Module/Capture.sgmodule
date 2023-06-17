@@ -1,4 +1,4 @@
-#!name=全局抓包
+#!name=Capture
 #!desc=GlobalPacketCapture
 
 [MITM]

@@ -1,0 +1,10 @@
+#!name=PiPiXia
+#!desc=皮皮虾去广告
+#!author=Liquor030
+
+[URL Rewrite]
+# Remove Super's Ad (By Liquor030)
+app_name=super&([\S]*)aid=\d+ app_name=super_pro&$1aid=1412 header
+
+[MITM]
+hostname = %INSERT% *.snssdk.com, *pipix.com

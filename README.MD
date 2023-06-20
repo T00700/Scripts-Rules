@@ -3,6 +3,7 @@
 
 ### 🧸特别说明
  - 本仓库中部分内容仅整理收集于互联网开源项目在此对原作者表示衷心的感谢
+
 - 使用本项目所造成的一切后果与本项目贡献者无关由使用个人或组织完全承担
 
 ### 🧸特别感谢
@@ -18,6 +19,7 @@
 - [Maasea](https://github.com/Maasea)
 - [NobyDa](https://github.com/NobyDa)
 - [Orz-3](https://github.com/Orz-3)
+- [Rabbit-Spec](https://github.com/Rabbit-Spec)
 
 ### 🧸访问统计
 ![Visitor Count](https://profile-counter.glitch.me/Centralmatrix3/count.svg)

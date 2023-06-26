@@ -1,3 +1,6 @@
+#!name= TestFlight
+#!desc= TF-下载修正
+
 [General]
 skip-proxy = %APPEND% iosapps.itunes.apple.com
 

@@ -1,5 +1,5 @@
 # > 矩阵配置:Clash        Author:Matrix3
-# > 更新时间:2023-05-23 00:41 UTC/GMT +8
+# > 更新时间:2023-07-01 00:59 UTC/GMT +8
 
 # > 混合端口
 mixed-port: 7890
@@ -96,7 +96,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
 
   SG:
-    filter: 新|狮|獅|SG|(?i)Singapore
+    filter: 新|狮|SG|(?i)Singapore
     type: file
     path: ./ProxyList.yaml
     health-check:

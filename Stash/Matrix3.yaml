@@ -1,7 +1,7 @@
 # > 矩阵配置:Stash        Author:Matrix3
-# > 更新时间:2023-05-23 00:50 UTC/GMT +8
+# > 更新时间:2023-07-01 00:52 UTC/GMT +8
 # > 订阅的信息
-subscribe-url: 🧸订阅链接🧸
+subscribe-url: 🧸订阅链接🧸,🍟订阅链接🍟
 
 # > 远程服务器
 proxy-providers:
@@ -9,8 +9,12 @@ proxy-providers:
     url: 🧸订阅链接🧸
     interval: 600
 
+  MATRIX-2:
+    url: 🍟订阅链接🍟
+    interval: 600
+
 proxy-groups:
-# > 策略组:自行选择
+# > 自行选择
   - name: 自行选择
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png
     interval: 120
@@ -19,7 +23,7 @@ proxy-groups:
     url: http://cp.cloudflare.com/generate_204
     include-all: true
 
-# > 策略组:苹果服务
+# > 苹果服务
   - name: 苹果服务
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
     type: select
@@ -34,7 +38,7 @@ proxy-groups:
       - 狮城节点
       - 美国节点
 
-# > 策略组:港台番剧
+# > 港台番剧
   - name: 港台番剧
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/StreamingSE.png
     type: select
@@ -49,7 +53,7 @@ proxy-groups:
       - 狮城节点
       - 美国节点
 
-# > 策略组:国内影视
+# > 国内影视
   - name: 国内影视
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/StreamingCN.png
     type: select
@@ -64,7 +68,7 @@ proxy-groups:
       - 狮城节点
       - 美国节点
 
-# > 策略组:国际媒体
+# > 国际媒体
   - name: 国际媒体
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Streaming.png
     type: select
@@ -79,7 +83,7 @@ proxy-groups:
       - 狮城节点
       - 美国节点
 
-# > 策略组:全球加速
+# > 全球加速
   - name: 全球加速
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
     type: select
@@ -94,7 +98,7 @@ proxy-groups:
       - 狮城节点
       - 美国节点
 
-# > 策略组:黑白名单
+# > 黑白名单
   - name: 黑白名单
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png
     type: select
@@ -109,7 +113,7 @@ proxy-groups:
       - 狮城节点
       - 美国节点
 
-# > 策略组:自动选择
+# > 自动选择
   - name: 自动选择
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png
     interval: 120
@@ -118,8 +122,9 @@ proxy-groups:
     type: url-test
     url: http://cp.cloudflare.com/generate_204
     include-all: true
+#    hidden: true
 
-# > 策略组:香港节点
+# > 香港节点
   - name: 香港节点
     filter: "香港|港|HK|(?i)HongKong"
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
@@ -129,8 +134,9 @@ proxy-groups:
     type: url-test
     url: http://cp.cloudflare.com/generate_204
     include-all: true
+#    hidden: true
 
-# > 策略组:台湾节点
+# > 台湾节点
   - name: 台湾节点
     filter: "台湾|台|TW|(?i)Taiwan"
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
@@ -140,8 +146,9 @@ proxy-groups:
     type: url-test
     url: http://cp.cloudflare.com/generate_204
     include-all: true
+#    hidden: true
 
-# > 策略组:日本节点
+# > 日本节点
   - name: 日本节点
     filter: "日本|日|JP|(?i)Japan"
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
@@ -151,8 +158,9 @@ proxy-groups:
     type: url-test
     url: http://cp.cloudflare.com/generate_204
     include-all: true
+#    hidden: true
 
-# > 策略组:韩国节点
+# > 韩国节点
   - name: 韩国节点
     filter: "韩国|韩|KR|(?i)SouthKorea"
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
@@ -162,8 +170,9 @@ proxy-groups:
     type: url-test
     url: http://cp.cloudflare.com/generate_204
     include-all: true
+#    hidden: true
 
-# > 策略组:狮城节点
+# > 狮城节点
   - name: 狮城节点
     filter: "新加坡|新|SG|(?i)Singapore"
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
@@ -173,8 +182,9 @@ proxy-groups:
     type: url-test
     url: http://cp.cloudflare.com/generate_204
     include-all: true
+#    hidden: true
 
-# > 策略组:美国节点
+# > 美国节点
   - name: 美国节点
     filter: "美国|美|US|(?i)UnitedStates"
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
@@ -184,6 +194,7 @@ proxy-groups:
     type: url-test
     url: http://cp.cloudflare.com/generate_204
     include-all: true
+#    hidden: true
 
 rules:
 # > 规则修正

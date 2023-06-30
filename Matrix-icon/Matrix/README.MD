@@ -1,5 +1,4 @@
-### QuantumultX 配置
+#QuantumultX 配置
 
-### [General] 参数
-
+### [General]
 ### Profile_img_url=URL

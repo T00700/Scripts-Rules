@@ -1,20 +1,18 @@
-# > 矩阵配置:Stash        Author:Matrix3
-# > 更新时间:2023-07-01 00:52 UTC/GMT +8
-# > 订阅的信息
-subscribe-url: 🧸订阅链接🧸,🍟订阅链接🍟
+# 配置名称: Stash 配置
+# 配置作者: Centralmatrix3
+# 更新时间: 23-07-05 02:10
 
-# > 远程服务器
+# 订阅的信息
+subscribe-url: 🧸订阅链接🧸
+
+# 远程服务器
 proxy-providers:
-  MATRIX-1:
+  Matrix:
     url: 🧸订阅链接🧸
     interval: 600
 
-  MATRIX-2:
-    url: 🍟订阅链接🍟
-    interval: 600
-
+# 代理策略组
 proxy-groups:
-# > 自行选择
   - name: 自行选择
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png
     interval: 120
@@ -23,7 +21,6 @@ proxy-groups:
     url: http://cp.cloudflare.com/generate_204
     include-all: true
 
-# > 苹果服务
   - name: 苹果服务
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
     type: select
@@ -38,7 +35,6 @@ proxy-groups:
       - 狮城节点
       - 美国节点
 
-# > 港台番剧
   - name: 港台番剧
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/StreamingSE.png
     type: select
@@ -53,7 +49,6 @@ proxy-groups:
       - 狮城节点
       - 美国节点
 
-# > 国内影视
   - name: 国内影视
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/StreamingCN.png
     type: select
@@ -68,7 +63,6 @@ proxy-groups:
       - 狮城节点
       - 美国节点
 
-# > 国际媒体
   - name: 国际媒体
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Streaming.png
     type: select
@@ -83,7 +77,6 @@ proxy-groups:
       - 狮城节点
       - 美国节点
 
-# > 全球加速
   - name: 全球加速
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
     type: select
@@ -98,7 +91,6 @@ proxy-groups:
       - 狮城节点
       - 美国节点
 
-# > 黑白名单
   - name: 黑白名单
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png
     type: select
@@ -113,7 +105,6 @@ proxy-groups:
       - 狮城节点
       - 美国节点
 
-# > 自动选择
   - name: 自动选择
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png
     interval: 120
@@ -122,9 +113,8 @@ proxy-groups:
     type: url-test
     url: http://cp.cloudflare.com/generate_204
     include-all: true
-#    hidden: true
+    hidden: null
 
-# > 香港节点
   - name: 香港节点
     filter: "香港|港|HK|(?i)HongKong"
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
@@ -134,9 +124,8 @@ proxy-groups:
     type: url-test
     url: http://cp.cloudflare.com/generate_204
     include-all: true
-#    hidden: true
+    hidden: null
 
-# > 台湾节点
   - name: 台湾节点
     filter: "台湾|台|TW|(?i)Taiwan"
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
@@ -146,9 +135,8 @@ proxy-groups:
     type: url-test
     url: http://cp.cloudflare.com/generate_204
     include-all: true
-#    hidden: true
+    hidden: null
 
-# > 日本节点
   - name: 日本节点
     filter: "日本|日|JP|(?i)Japan"
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
@@ -158,9 +146,8 @@ proxy-groups:
     type: url-test
     url: http://cp.cloudflare.com/generate_204
     include-all: true
-#    hidden: true
+    hidden: null
 
-# > 韩国节点
   - name: 韩国节点
     filter: "韩国|韩|KR|(?i)SouthKorea"
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
@@ -170,9 +157,8 @@ proxy-groups:
     type: url-test
     url: http://cp.cloudflare.com/generate_204
     include-all: true
-#    hidden: true
+    hidden: null
 
-# > 狮城节点
   - name: 狮城节点
     filter: "新加坡|新|SG|(?i)Singapore"
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
@@ -182,9 +168,8 @@ proxy-groups:
     type: url-test
     url: http://cp.cloudflare.com/generate_204
     include-all: true
-#    hidden: true
+    hidden: null
 
-# > 美国节点
   - name: 美国节点
     filter: "美国|美|US|(?i)UnitedStates"
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
@@ -194,103 +179,81 @@ proxy-groups:
     type: url-test
     url: http://cp.cloudflare.com/generate_204
     include-all: true
-#    hidden: true
+    hidden: null
 
+# 分流规则
 rules:
-# > 规则修正
   - RULE-SET, 规则修正, DIRECT
-
-# > 广告拦截
   - RULE-SET, 广告拦截, REJECT
-
-# > 网络测速
   - RULE-SET, 网络测速, 全球加速
-
-# > 国际抖音
   - RULE-SET, 国际抖音, 国际媒体
-
-# > 国际媒体
   - RULE-SET, 国际媒体, 国际媒体
-
-# > 港台番剧
   - RULE-SET, 港台番剧, 港台番剧
-
-# > 国内影视
   - RULE-SET, 国内影视, 国内影视
-
-# > 全球加速
   - RULE-SET, 全球加速, 全球加速
-
-# > 苹果服务
   - RULE-SET, 苹果服务, 苹果服务
-
-# > 国内规则
+  - RULE-SET, 局域网络, DIRECT
   - GEOIP, CN, DIRECT
-
-# > 最终规则
   - MATCH,黑白名单
 
+# 远程规则
 rule-providers:
-# > 规则修正
   规则修正:
     behavior: classical
     interval: 86400
     url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/Unbreak.yaml
 
-# > 广告拦截
   广告拦截:
     behavior: domain
     interval: 86400
     url: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
 
-# > 网络测速
   网络测速:
     behavior: classical
     interval: 86400
     url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/Speedtest.yaml
 
-# > 国际抖音
   国际抖音:
     behavior: classical
     interval: 86400
     url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/TikTok.yaml
 
-# > 国际媒体
   国际媒体:
     behavior: classical
     interval: 86400
     url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/Streaming.yaml
 
-# > 港台番剧
   港台番剧:
     behavior: classical
     interval: 86400
     url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/StreamingSE.yaml
 
-# > 国内影视
   国内影视:
     behavior: classical
     interval: 86400
     url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/StreamingCN.yaml
 
-# > 全球加速
   全球加速:
     behavior: classical
     interval: 86400
     url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/Global.yaml
 
-# > 苹果服务
   苹果服务:
     behavior: classical
     interval: 86400
     url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/Apple.yaml
 
-# > 脚本
+  局域网络:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Stash/Rule/LAN.yaml
+
+# 脚本
 script:
   shortcuts:
     quic: network == 'udp' and dst_port == 443
 
-# > DNS
+# DNS
 dns:
   default-nameserver:
     - 119.29.29.29

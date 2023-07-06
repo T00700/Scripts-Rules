@@ -1,7 +1,7 @@
 # 针对部分网站显示IP归属地的分流规则
 # 项目地址:https://github.com/lwd-temp/anti-ip-attribution
 
-# 哔哩哔哩  数量:15
+# 哔哩哔哩-数量:15
 DOMAIN-SUFFIX, biliapi.net
 DOMAIN-SUFFIX, biliapi.com
 DOMAIN, api.bilibili.com
@@ -18,13 +18,13 @@ DOMAIN-SUFFIX, im9.com
 DOMAIN-SUFFIX, acg.tv
 DOMAIN-SUFFIX, biligame.com
 
-# 微博          数量:4
+# 微博-数量:4
 DOMAIN, api.weibo.cn
 DOMAIN, api.weibo.com
 DOMAIN-SUFFIX, weibocdn.com
 DOMAIN-KEYWORD, weibo
 
-# 百度贴吧  数量:7
+# 百度贴吧-数量:7
 DOMAIN, tieba.baidu.com
 DOMAIN, tbmsg.baidu.com
 DOMAIN, tb5.bdstatic.com
@@ -33,20 +33,20 @@ DOMAIN, gsp0.baidu.com
 DOMAIN, hm.baidu.com
 DOMAIN, www.baidu.com
  
-# 微信          数量:4
+# 微信-数量:4
 DOMAIN, szshort.weixin.qq.com
 DOMAIN, szextshort.weixin.qq.com
 DOMAIN, szminorshort.weixin.qq.com
 DOMAIN, mp.weixin.qq.com
 
-# 知乎          数量:5
+# 知乎-数量:5
 # DOMAIN, zhihu-web-analytics.zhihu.com
 # DOMAIN, www.zhihu.com
 # DOMAIN, api.zhihu.com
 DOMAIN-SUFFIX, zhihu.com
 IP-CIDR, 103.41.167.0/24
 
-# 抖音          数量:6  需要家宽的IP
+# 抖音-数量:6  需要家宽的IP
 DOMAIN-KEYWORD, core-c-lq
 DOMAIN-KEYWORD, core-lq
 DOMAIN-KEYWORD, normal-c-lq
@@ -54,51 +54,51 @@ DOMAIN-KEYWORD, normal-lq
 DOMAIN-KEYWORD, search-quic-lq
 DOMAIN-KEYWORD, search-lq
 
-# 头条          数量:1
+# 头条-数量:1
 DOMAIN-SUFFIX, toutiaoapi.com
 
-# 快手          数量:2
+# 快手-数量:2
 DOMAIN-SUFFIX, gifshow.com
 DOMAIN-SUFFIX, ksapisrv.com
 
-# 小红书      数量:1
+# 小红书-数量:1
 DOMAIN-SUFFIX, xiaohongshu.com
 
-# 其乐论坛  数量:1
+# 其乐论坛-数量:1
 DOMAIN, keylol.com
 
-# 西瓜视频  数量:1
+# 西瓜视频-数量:1
 DOMAIN-SUFFIX, ixigua.com
 
-# 文叔叔      数量:1
+# 文叔叔-数量:1
 DOMAIN, www.wenshushu.cn
 
-# 酷安          数量:1
+# 酷安-数量:1
 DOMAIN, api.coolapk.com
 
-# 豆瓣          数量:2  建议全局代理
+# 豆瓣-数量:2  建议全局代理
 DOMAIN, frodo.douban.com
 DOMAIN, www.douban.com
 
-# TapTap     数量:1
+# TapTap-数量:1
 DOMAIN, api.taptapdada.com
 
-# 网易大神  数量:1
+# 网易大神-数量:1
 DOMAIN, god.gameyw.netease.com
 
-# 虎牙          数量:1
+# 虎牙-数量:1
 DOMAIN-SUFFIX, huya.com
 
-# 懂球帝      数量:1
+# 懂球帝-数量:1
 DOMAIN-SUFFIX, dongqiudi.com
 
-# NGA          数量:1
+# NGA-数量:1
 DOMAIN, ngabbs.com
 
-# 小米社区  数量:1
+# 小米社区-数量:1
 DOMAIN-SUFFIX, vip.miui.com
 
-# 网易音乐  数量:24
+# 网易音乐-数量:24
 DOMAIN-SUFFIX, music.163.com
 DOMAIN, nstool.netease.com
 DOMAIN, wanproxy.127.net
@@ -124,5 +124,5 @@ IP-CIDR, 59.111.160.195/32
 IP-CIDR, 59.111.19.33/32
 IP-CIDR, 59.111.19.53/32
 
-# 米游社       数量:1
+# 米游社-数量:1
 DOMAIN, bbs-api.mihoyo.com

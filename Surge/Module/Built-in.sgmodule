@@ -1,0 +1,12 @@
+#!name=内置模块
+#!desc=Built-in Module
+
+# 通过访问浏览器 http://matrix.com 来访问路由器配置网页URL将始终重定向到当前网络中的网关地址
+[General]
+force-http-engine-hosts=%APPEND% matrix.com, www.matrix.com
+
+[URL Rewrite]
+^https?://(|www\.)matrix\.com http://{{{GATEWAY_ADDRESS}}} 302
+
+[MITM]
+hostname = %INSERT% matrix.com, www.matrix.com

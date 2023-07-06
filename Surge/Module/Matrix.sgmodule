@@ -1,0 +1,12 @@
+#!name=Matrix.com
+#!desc=http://Matrix.com
+
+# 通过访问浏览器 http://Matrix.com 来访问路由器配置网页URL将始终重定向到当前网络中的网关地址
+[General]
+force-http-engine-hosts=%APPEND% Matrix.com, www.Matrix.com
+
+[URL Rewrite]
+^https?://(|www\.)Matrix\.com http://{{{GATEWAY_ADDRESS}}} 302
+
+[MITM]
+hostname = %INSERT% Matrix.com, www.Matrix.com

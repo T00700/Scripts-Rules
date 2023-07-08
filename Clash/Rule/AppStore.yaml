@@ -1,6 +1,0 @@
-# 名称:AppStore
-# 作者:Centralmatrix3
-
-payload:
-  - DOMAIN,apps.apple.com
-  - DOMAIN,itunes.apple.com

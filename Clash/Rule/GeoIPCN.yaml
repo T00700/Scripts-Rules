@@ -1,2 +1,5 @@
+# 名称:GeoIP CN
+# 作者:Centralmatrix3
+
 payload:
   - GEOIP, CN

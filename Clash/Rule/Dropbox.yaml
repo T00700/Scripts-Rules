@@ -1,3 +1,6 @@
+# 名称:Dropbox
+# 作者:blackmatrix7
+
 payload:
   - DOMAIN-SUFFIX,db.tt
   - DOMAIN-SUFFIX,dropbox-dns.com

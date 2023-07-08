@@ -1,6 +1,6 @@
 # 配置名称: Stash 配置
 # 配置作者: Centralmatrix3
-# 更新时间: 23-07-05 02:10
+# 更新时间: 23-07-08 21:40
 
 # 订阅的信息
 subscribe-url: 🧸订阅链接🧸
@@ -201,7 +201,7 @@ rule-providers:
   规则修正:
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/Unbreak.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Ruleset/Unbreak.yaml
 
   广告拦截:
     behavior: domain
@@ -211,42 +211,42 @@ rule-providers:
   网络测速:
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/Speedtest.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Ruleset/Speedtest.yaml
 
   国际抖音:
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/TikTok.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Ruleset/TikTok.yaml
 
   国际媒体:
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/Streaming.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Ruleset/Streaming.yaml
 
   港台番剧:
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/StreamingSE.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Ruleset/StreamingSE.yaml
 
   国内影视:
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/StreamingCN.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Ruleset/StreamingCN.yaml
 
   全球加速:
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/Global.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Ruleset/Global.yaml
 
   苹果服务:
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/Apple.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Ruleset/Apple.yaml
 
   局域网络:
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Stash/Rule/LAN.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Stash/Ruleset/LAN.yaml
 
 # 脚本
 script:

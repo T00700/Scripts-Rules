@@ -1,6 +1,6 @@
 # 配置名称: Clash 配置
 # 配置作者: Centralmatrix3
-# 更新时间: 23-07-05 02:20
+# 更新时间: 23-07-09 01:47
 
 # 混合端口
 mixed-port: 7890
@@ -207,7 +207,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./Rule/Unbreak.yaml
-    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/Unbreak.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Ruleset/Unbreak.yaml
     interval: 86400
 
   广告拦截:
@@ -221,42 +221,42 @@ rule-providers:
     type: http
     behavior: classical
     path: ./Rule/Speedtest.yaml
-    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/Speedtest.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Ruleset/Speedtest.yaml
     interval: 86400
 
   国际媒体:
     type: http
     behavior: classical
     path: ./Rule/Streaming.yaml
-    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/Streaming.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Ruleset/Streaming.yaml
     interval: 86400
 
   港台番剧:
     type: http
     behavior: classical
     path: ./Rule/StreamingSE.yaml
-    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/StreamingSE.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Ruleset/StreamingSE.yaml
     interval: 86400
 
   国内影视:
     type: http
     behavior: classical
     path: ./Rule/StreamingCN.yaml
-    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/StreamingCN.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Ruleset/StreamingCN.yaml
     interval: 86400
 
   全球加速:
     type: http
     behavior: classical
     path: ./Rule/Global.yaml
-    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/Global.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Ruleset/Global.yaml
     interval: 86400
 
   局域网络:
     type: http
     behavior: classical
     path: ./Rule/Global.yaml
-    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Rule/LAN.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Ruleset/LAN.yaml
     interval: 86400
 
 # 分流规则

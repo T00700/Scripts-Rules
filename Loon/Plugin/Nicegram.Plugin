@@ -1,8 +1,0 @@
-#!name=Nicegram会员
-#!desc=解锁Nicegram会员
-
-[Script]
-http-request ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$ script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Loon/Script/Nicegram.Js, timeout=10, tag=Nicegram会员
-
-[MITM]
-hostname = restore-access.indream.app

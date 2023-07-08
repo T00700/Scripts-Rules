@@ -1,0 +1,122 @@
+# 哔哩哔哩-数量:15
+HOST-SUFFIX, biliapi.net, anti-IP
+HOST-SUFFIX, biliapi.com, anti-IP
+HOST, api.bilibili.com, anti-IP
+HOST, api.bilibili.tv, anti-IP
+HOST, app.bilibili.com, anti-IP
+HOST, api.live.bilibili.com, anti-IP
+HOST, api.vc.bilibili.com, anti-IP
+HOST, passport.bilibili.com, anti-IP
+HOST, live-trace.bilibili.com, anti-IP
+HOST, message.bilibili.com, anti-IP
+HOST, cm.bilibili.com, anti-IP
+HOST-SUFFIX, bilibili.com, anti-IP
+HOST-SUFFIX, im9.com, anti-IP
+HOST-SUFFIX, acg.tv, anti-IP
+HOST-SUFFIX, biligame.com, anti-IP
+
+# 微博-数量:4
+HOST, api.weibo.cn, anti-IP
+HOST, api.weibo.com, anti-IP
+HOST-SUFFIX, weibocdn.com, anti-IP
+HOST-KEYWORD, weibo, anti-IP
+
+# 百度贴吧-数量:7
+HOST, tieba.baidu.com, anti-IP
+HOST, tbmsg.baidu.com, anti-IP
+HOST, tb5.bdstatic.com, anti-IP
+HOST, fclog.baidu.com, anti-IP
+HOST, gsp0.baidu.com, anti-IP
+HOST, hm.baidu.com, anti-IP
+HOST, www.baidu.com, anti-IP
+
+# 微信-数量:4
+HOST, szshort.weixin.qq.com, anti-IP
+HOST, szextshort.weixin.qq.com, anti-IP
+HOST, szminorshort.weixin.qq.com, anti-IP
+HOST, mp.weixin.qq.com, anti-IP
+
+# 知乎-数量:5
+HOST-SUFFIX, zhihu.com, anti-IP
+IP-CIRD, 103.41.167.0/24, anti-IP
+HOST-KEYWORD, core-c-lq, anti-IP
+HOST-KEYWORD, core-lq, anti-IP
+HOST-KEYWORD, normal-c-lq, anti-IP
+
+# 抖音-数量:6  需要家宽的IP
+HOST-KEYWORD, normal-lq, anti-IP
+HOST-KEYWORD, search-quic-lq, anti-IP
+HOST-KEYWORD, search-lq, anti-IP
+HOST-SUFFIX, toutiaoapi.com, anti-IP
+HOST-SUFFIX, gifshow.com, anti-IP
+HOST-SUFFIX, ksapisrv.com, anti-IP
+
+# 头条-数量:1
+HOST-SUFFIX, xiaohongshu.com, anti-IP
+
+# 快手-数量:2
+HOST, keylol.com, anti-IP
+HOST-SUFFIX, ixigua.com, anti-IP
+
+# 小红书-数量:1
+HOST, www.wenshushu.cn, anti-IP
+
+# 其乐论坛-数量:1
+HOST, api.coolapk.com, anti-IP
+
+# 西瓜视频-数量:1
+HOST, frodo.douban.com, anti-IP
+
+# 文叔叔-数量:1
+HOST, www.douban.com, anti-IP
+
+# 酷安-数量:1
+HOST, api.taptapdada.com, anti-IP
+
+# 豆瓣-数量:2  建议全局代理
+HOST, god.gameyw.netease.com, anti-IP
+HOST-SUFFIX, huya.com, anti-IP
+
+# TapTap-数量:1
+HOST-SUFFIX, dongqiudi.com, anti-IP
+
+# 网易大神-数量:1
+HOST, ngabbs.com, anti-IP
+
+# 虎牙-数量:1
+HOST-SUFFIX, vip.miui.com, anti-IP
+
+# 懂球帝-数量:1
+HOST-SUFFIX, music.163.com, anti-IP
+
+# NGA-数量:1
+HOST, nstool.netease.com, anti-IP
+
+# 小米社区-数量:1
+HOST, wanproxy.127.net, anti-IP
+
+# 网易音乐-数量:24
+HOST, mam.netease.com, anti-IP
+HOST, dt.netease.im, anti-IP
+HOST, api.iplay.163.com, anti-IP
+HOST, api.k.163.com, anti-IP
+HOST, lbs.netease.im, anti-IP
+HOST, wannos.127.net, anti-IP
+HOST, ac.dun.163.com, anti-IP
+HOST-SUFFIX, music.126.net, anti-IP
+HOST-SUFFIX, laiqukankan.com, anti-IP
+HOST-SUFFIX, music.ntes53.netease.com, anti-IP
+IP-CIRD, 101.71.154.241/32, anti-IP
+IP-CIRD, 103.126.92.132/32, anti-IP
+IP-CIRD, 103.126.92.133/32, anti-IP
+IP-CIRD, 112.13.119.18/32, anti-IP
+IP-CIRD, 112.13.122.4/32, anti-IP
+IP-CIRD, 115.236.118.34/32, anti-IP
+IP-CIRD, 115.236.121.4/32, anti-IP
+IP-CIRD, 45.254.48.1/32, anti-IP
+IP-CIRD, 59.111.160.195/32, anti-IP
+IP-CIRD, 59.111.19.33/32, anti-IP
+IP-CIRD, 59.111.19.53/32, anti-IP
+
+# 米游社-数量:1
+HOST, bbs-api.mihoyo.com, anti-IP

@@ -1,3 +1,6 @@
+# 名称:ChinaASN
+# 作者:kokoryh
+
 payload:
   - IP-ASN,10099
   - IP-ASN,10100

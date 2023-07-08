@@ -1,0 +1,8 @@
+#!name= TestFlight
+#!desc= TestFlight下载修正
+
+[Script]
+http-request ^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$ script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Loon/Scripts/TF-Download.Js,requires-body=1,tag=TestFlight_下载修正
+
+[MITM]
+hostname = testflight.apple.com

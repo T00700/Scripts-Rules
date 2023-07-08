@@ -1,3 +1,6 @@
+# 名称:Accelerate
+# 作者:ACL4SSR
+
 payload:
   - DOMAIN-SUFFIX,10010.com
   - DOMAIN-SUFFIX,115.com

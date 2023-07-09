@@ -1,8 +1,6 @@
 #!name = Bilibili
 #!desc = Bilibili去广告
-#!openUrl = 
-#!author = RuCu6 VirgilClyne Maasea ClydeTimea BiliUniverse kokoryh app2smile 
-#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/Loon/Plugin
+#!author = 可莉🅥
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/Bilibili.png
 
 [Rewrite]

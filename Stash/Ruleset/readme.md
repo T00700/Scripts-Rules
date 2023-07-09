@@ -1,17 +1,13 @@
 # Ruleset
--------
-**规则数据来源仓库**
--------
-**[Rule仓库](https://github.com/blackmatrix7/ios_rule_script)**
 
-- 作者:blackmatrix7
--------
-**[Rule仓库](https://github.com/ACL4SSR/ACL4SSR)**
+### 分流规则数据来源以下作者仓库
 
-- 作者:ACL4SSR
--------
-**[Rule仓库](https://github.com/kokoryh/Script)**
+- [blackmatrix7](https://gitlab.com/blackmatrix7)
 
-- 作者:kokoryh
--------
-# 特别感谢以上作者的辛苦付出
+- [DivineEngine](https://github.com/DivineEngine)
+
+- [ACL4SRR](https://github.com/ACL4SSR)
+
+- [kokoryh](https://github.com/kokoryh)
+
+### 特别感谢以上作者默默辛苦付出

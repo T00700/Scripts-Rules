@@ -1,27 +1,11 @@
 # Scripts
--------
-**Nicegram.Js**
 
-**IP-API.Js**
+### 脚本规则数据来源以下作者仓库
 
-- 作者:I-am-R-E
--------
-**TF-Download.Js**
+- [I-am-R-E](https://github.com/I-am-R-E)
 
-**BiliBili-Auto-Area.Js**
+- [KOP-XIAO](https://github.com/KOP-XIAO)
 
-- 作者:NobyDa
--------
-**Resource-Parser.Js**
+- [NobyDa](https://github.com/NobyDa)
 
-- 作者:KOP-XIAO
--------
-**IP-Info.Js**
-
-**API-IP.Js**
-
-**DNS-ClearCache.Js**
-
-- 作者:Centralmatrix3
--------
-# 特别感谢以上作者的辛苦付出
+### 特别感谢以上作者默默辛苦付出

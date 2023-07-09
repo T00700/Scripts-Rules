@@ -1,7 +1,7 @@
-#!name = Bilibili
-#!desc = Bilibili去广告
-#!author = 可莉🅥
-#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/Bilibili.png
+#!name=Bilibili
+#!desc=Bilibili去广告
+#!author=可莉🅥
+#!icon=https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/Bilibili.png
 
 [Rewrite]
 # 移除搜索中的默认关键词

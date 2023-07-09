@@ -1,11 +1,9 @@
 # Scripts
--------
-**Nicegram.Js**
 
-- 作者:I-am-R-E
--------
-**TF-Download.Js**
+### 脚本规则数据来源以下作者仓库
 
-- 作者:NobyDa
--------
-# 特别感谢以上作者的辛苦付出
+- [I-am-R-E](https://github.com/I-am-R-E)
+
+- [NobyDa](https://github.com/NobyDa)
+
+### 特别感谢以上作者默默辛苦付出

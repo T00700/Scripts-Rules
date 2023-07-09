@@ -1,0 +1,9 @@
+#!name=TUN Only
+#!desc=启用TUN Only使用80端口HTTP代理
+
+[General]
+compatibility-mode = 3
+force-http-engine-hosts = %APPEND% -<ip-address>, *
+
+[MITM]
+tcp-connection = true

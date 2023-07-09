@@ -1,9 +1,9 @@
-# Matrix-icon
--------
-**Color**
+# Color
 
-- 作者:Orz-3
-- 作者:koolson
-- 作者:Centralmatrix3
--------
-# 特别感谢以上作者的辛苦付出
+### 策略图标数据来源以下作者仓库
+
+- [Orz-3](https://github.com/Orz-3)
+
+- [koolson](https://github.com/koolson)
+
+### 特别感谢以上作者默默辛苦付出

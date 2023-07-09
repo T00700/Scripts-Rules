@@ -1,8 +1,6 @@
 #!name=Sub-Store
 #!desc=https://sub-store.vercel.app/sync
-#!openUrl=https://sub.store
 #!author=Peng-YM
-#!homepage=https://github.com/Peng-YM/Sub-Store
 #!icon=https://raw.githubusercontent.com/58xinian/icon/master/Sub-Store1.png
 
 [MITM]

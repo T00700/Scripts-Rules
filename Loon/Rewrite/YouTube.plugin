@@ -1,11 +1,9 @@
-#!name = YouTube
-#!desc = YouTube去广告
-#!openUrl = 
-#!author = Maasea VirgilClyne Choler DivineEngine app2smile
-#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/Loon/Plugin
-#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/YouTube.png
-#!select = 仅输出字幕译文, 是, 否
-#!select = 字幕译文的位置, 译文位于原文之上, 译文位于原文之下
+#!name=YouTube
+#!desc=YouTube去广告
+#!author=可莉🅥
+#!icon=https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/YouTube.png
+#!select=仅输出字幕译文, 是, 否
+#!select=字幕译文的位置, 译文位于原文之上, 译文位于原文之下
 
 [Rewrite]
 # 使用reject-200方法以减少开销

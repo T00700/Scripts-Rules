@@ -1,0 +1,10 @@
+#!name=Net Speed
+#!desc=测试网络下载速度和延迟根据速度和延迟改变图标
+#!auther=@xream @wuhu_zzz @keywos @整点猫咪
+#!技术指导：整点薯条
+
+[Panel]
+NetSpeed = script-name=NetSpeed,update-interval=-1
+
+[Script]
+NetSpeed = type=generic,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Surge/Scripts/Net-Speed.Js,argument=title=NetSpeed&iconfast=bolt&iconmid=hare&iconslow=tortoise&colorlow=#06D6A0&colormid=#FFD166&colorhigh=#EF476F&mb=3

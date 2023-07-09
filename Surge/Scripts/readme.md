@@ -1,32 +1,15 @@
 # Scripts
--------
-**JD-Price.Js**
 
-- 作者:githubdulong
--------
-**Net-Speed.Js**
+### 脚本规则数据来源以下作者仓库
 
-- 作者:xream、keywos、wuhu_zzz、TEXAS、Getsomecats
-- 指导:VirgilClyne
--------
-**Nicegram.Js**
+- [Getsomecat](https://github.com/getsomecat/GetSomeCats)
 
-- 作者:I-am-R-E
--------
-**QQ-News.Js**
+- [Rabbit-Spec](https://github.com/Rabbit-Spec)
 
-- 作者:app2smile
--------
-**Stream-All.Js**
+- [I-am-R-E](https://github.com/I-am-R-E)
 
-- 作者:LucaLin233、Rabbit-Spec
--------
-**SurgePro.Js**
+- [app2smile](https://github.com/app2smile)
 
-- 作者:fishingworld、Rabbit-Spec
--------
-**TF-Download.Js**
+- [NobyDa](https://github.com/NobyDa)
 
-- 作者:NobyDa
--------
-# 特别感谢以上作者的辛苦付出
+### 特别感谢以上作者默默辛苦付出

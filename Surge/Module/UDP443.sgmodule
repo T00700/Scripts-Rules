@@ -1,5 +1,0 @@
-#!name=UDP443
-#!desc=屏蔽443端口
-
-[Rule]
-AND,((PROTOCOL,UDP),(DEST-PORT,443)),REJECT-NO-DROP

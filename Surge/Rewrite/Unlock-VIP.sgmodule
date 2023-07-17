@@ -1,3 +1,18 @@
 #!name = 会员解锁合集
-#!desc = 搜集整理会员重写合集
+#!desc = 搜集整理会员模块合集
 #!tool = Surge
+
+[MITM]
+# 主机名
+hostname = %APPEND% *.wps.cn, top-widgets-api.xiaozujian.com
+
+[Script]
+# 名称:WPS Office[模块有效]
+# 作者:chxm1023
+# 仓库:https://github.com/chxm1023
+WPS Office = type=http-response,pattern=^https?:\/\/(vas|account|drive)\.wps\.cn\/(query\/api\/.+\/list_purchase_info|api\/(v\d\/spaces|users\/.+\/overview)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/WPS.js
+
+# 名称:TopWidgets[模块有效]
+# 作者:chxm1023
+# 仓库:https://github.com/chxm1023
+TopWidgets = type=http-response,pattern=^https?:\/\/top-widgets-api\.xiaozujian\.com\/api\/app\/config\/userConfig,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/widgets.js

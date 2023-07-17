@@ -3,9 +3,14 @@
 #!tool = QuantumultX
 
 # 主机名
-hostname = buy.itunes.apple.com
+hostname = buy.itunes.apple.com, mobile-ios-wallpaper-api.zhhainiao.com
 
-# 名称:米克锁屏
-# 作者:89996462
-# 状态:有效
+# 名称:米克锁屏[重写有效]
+# 作者:彭于晏
+# 仓库:https://github.com/89996462
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/mksp.js
+
+# 名称:元气壁纸[重写有效]
+# 作者:Hausd0rff
+# 仓库:https://github.com/yqc007
+^https?:\/\/mobile-ios-wallpaper-api\.zhhainiao\.com\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/YuanQiPaperVipCrack.js

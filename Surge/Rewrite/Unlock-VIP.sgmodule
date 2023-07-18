@@ -4,7 +4,7 @@
 
 [MITM]
 # 主机名
-hostname = %APPEND% *.wps.cn, top-widgets-api.xiaozujian.com
+hostname = %APPEND% *.wps.cn, top-widgets-api.xiaozujian.com, www.xmind.*
 
 [Script]
 # 名称:WPS Office[模块有效]
@@ -16,3 +16,8 @@ WPS Office = type=http-response,pattern=^https?:\/\/(vas|account|drive)\.wps\.cn
 # 作者:chxm1023
 # 仓库:https://github.com/chxm1023
 TopWidgets = type=http-response,pattern=^https?:\/\/top-widgets-api\.xiaozujian\.com\/api\/app\/config\/userConfig,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/widgets.js
+
+# 名称:思维导图[模块有效]
+# 作者:chxm1023
+# 仓库:https://github.com/chxm1023
+思维导图 = type=http-response,pattern=^https?:\/\/www\.xmind\.(cn|net|app)\/.+\/devices,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Xmind.js

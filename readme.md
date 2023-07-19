@@ -1,6 +1,5 @@
-# Scripts And Rules.
+# Scripts And Rules
 
-### 🤩欢迎Star 不要Fork😍
-### 自用配置分流以及重写规则
-
-![](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Matrix/D-001.JPG)
+### 欢迎Star 不要Fork
+- 我并不生产规则-我只是规则的搬运工(仅自用)
+- 使用前阅读readme和wiki是好习惯(如果有)

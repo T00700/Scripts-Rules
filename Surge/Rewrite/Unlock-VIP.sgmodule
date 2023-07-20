@@ -4,7 +4,7 @@
 
 [MITM]
 # 主机名
-hostname = %APPEND% *.wps.cn, top-widgets-api.xiaozujian.com, www.xmind.*
+hostname = %APPEND% *.wps.cn, top-widgets-api.xiaozujian.com, www.xmind.*, *.wallpaperscraft.com
 
 [Script]
 # 名称:WPS Office[模块有效]
@@ -21,3 +21,8 @@ TopWidgets = type=http-response,pattern=^https?:\/\/top-widgets-api\.xiaozujian\
 # 作者:chxm1023
 # 仓库:https://github.com/chxm1023
 思维导图 = type=http-response,pattern=^https?:\/\/www\.xmind\.(cn|net|app)\/.+\/devices,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Xmind.js
+
+# 名称:Wallcraft壁纸[模块有效]
+# 作者:chxm1023
+# 仓库:https://github.com/chxm1023
+Wallcraft壁纸 = type=http-response,pattern=^https?:\/\/billing-ios\.wallpaperscraft\.com\/verify_receipt\/remove_ads$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Wall.js

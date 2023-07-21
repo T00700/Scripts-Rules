@@ -3,7 +3,7 @@
 #!tool = QuantumultX
 
 # 主机名
-hostname = buy.itunes.apple.com, mobile-ios-wallpaper-api.zhhainiao.com, 180.153.*.*, *xima*, *xmcdn*, *.ximalaya.com, *.xmcdn.com, 180.153.255.*, 180.153.140.*, 180.153.250.*, 114.80.99.*, 114.80.139.237, 114.80.161.29, 1.62.62.64,51*.com, 182.254.*.*, bmall.camera360.com
+hostname = buy.itunes.apple.com, mobile-ios-wallpaper-api.zhhainiao.com, 180.153.*.*, *xima*, *xmcdn*, *.ximalaya.com, *.xmcdn.com, 180.153.255.*, 180.153.140.*, 180.153.250.*, 114.80.99.*, 114.80.139.237, 114.80.161.29, 1.62.62.64,51*.com, 182.254.*.*, bmall.camera360.com, api*.faceu.mobi, api3-lq.faceu.mobi, commerce-api-lf.faceu.mobi, commerce-api-lq.faceu.mobi, lv-api-lq.ulikecam.com, lv-api-hl.ulikecam.com
 
 # 名称:米克锁屏[重写有效]
 # 作者:彭于晏
@@ -35,3 +35,8 @@ hostname = buy.itunes.apple.com, mobile-ios-wallpaper-api.zhhainiao.com, 180.153
 # 作者:Hausd0rff
 # 仓库:https://github.com/yqc007
 ^https?:\/\/bmall\.camera360\.com\/api\/iap\/check-receipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/FaceProForeverVipCrack.js
+
+# 名称:剪映9.8.2[重写有效]
+# 作者:Hausd0rff
+# 仓库:https://github.com/yqc007
+^https?:\/\/commerce-api-.*\.faceu\.mobi\/commerce\/v1\/(subscription\/user_info|purchase\/draft_unlock|effect\/check_effects) url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/VideoFusionVipCrack.js

@@ -5,3 +5,8 @@
 - [Centralmatrix3](https://github.com/Centralmatrix3)
 
 ### 特别感谢以上作者默默辛苦付出
+
+### 使用方法
+- QuantumultX配置
+- [General]
+- profile_img_url=Url

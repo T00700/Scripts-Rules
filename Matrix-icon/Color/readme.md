@@ -6,4 +6,6 @@
 
 - [koolson](https://github.com/koolson)
 
+- [Centralmatrix3](https://github.com/Centralmatrix3)
+
 ### 特别感谢以上作者默默辛苦付出

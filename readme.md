@@ -20,5 +20,4 @@
 - 不保证所有规则与脚本的可用性。
 
 ### 特别感谢
-- 感谢名单都在Rewrite、Ruleset、Scripts的readme.md里
-- 在此再次感谢那些作者的默默幸苦付出
+- 感谢名单都在Rewrite、Ruleset、Scripts的readme里再次感谢那些作者的默默幸苦付出

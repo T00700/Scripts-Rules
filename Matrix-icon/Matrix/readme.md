@@ -8,5 +8,7 @@
 
 ### 使用方法
 - QuantumultX配置
-- [General]
+- ⇩ ⇩ ⇩
+- [General
+- ⇩ ⇩ ⇩
 - profile_img_url=Url

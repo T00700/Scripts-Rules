@@ -1,15 +1,3 @@
-#!名称 = 广告列表 ADBlock Rules
-#!描述 = 针对部分软件开屏、应用内广告进行拦截
-#!作者 = fmz200
-#!修改 = Centralmatrix3
-#!数量 = 9532
-#!工具 = Loon
-#!策略 = REJECT
-#!更新 = 202307230200
-
-#!来源 = https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list
-
-# ———————————————————————————————————— #
 DOMAIN, 118.89.204.198
 DOMAIN, 39d83s.com
 DOMAIN, a.wkanx.com

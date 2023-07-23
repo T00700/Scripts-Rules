@@ -4,30 +4,13 @@
 
 [MITM]
 # 主机名
-hostname = %APPEND% *.wps.cn, top-widgets-api.xiaozujian.com, www.xmind.*, *.wallpaperscraft.com, *.aoscdn.com, *.apsapp.cn
+hostname = %APPEND% top-widgets-api.xiaozujian.com, *.wallpaperscraft.com
 
 [Script]
-# 名称:WPS Office[模块有效]
+# 名称:TopWidgets
 # 作者:chxm1023
-# 仓库:https://github.com/chxm1023
-WPS Office = type=http-response,pattern=^https?:\/\/(vas|account|drive)\.wps\.cn\/(query\/api\/.+\/list_purchase_info|api\/(v\d\/spaces|users\/.+\/overview)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/WPS.js
-
-# 名称:TopWidgets[模块有效]
-# 作者:chxm1023
-# 仓库:https://github.com/chxm1023
 TopWidgets = type=http-response,pattern=^https?:\/\/top-widgets-api\.xiaozujian\.com\/api\/app\/config\/userConfig,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/widgets.js
 
-# 名称:思维导图[模块有效]
+# 名称:Wallcraft壁纸
 # 作者:chxm1023
-# 仓库:https://github.com/chxm1023
-思维导图 = type=http-response,pattern=^https?:\/\/www\.xmind\.(cn|net|app)\/.+\/devices,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Xmind.js
-
-# 名称:Wallcraft壁纸[模块有效]
-# 作者:chxm1023
-# 仓库:https://github.com/chxm1023
 Wallcraft壁纸 = type=http-response,pattern=^https?:\/\/billing-ios\.wallpaperscraft\.com\/verify_receipt\/remove_ads$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Wall.js
-
-# 名称:傲软抠图、傲软扫描、傲软PDF转换、傲软PDF编辑、傲软投屏、咖映、轻闪PDF、乃糖小组件、佐糖、佐糖照片修复[模块有效]
-# 作者:chxm1023
-# 仓库:https://github.com/chxm1023
-傲软全家桶 = type=http-response,pattern= ^https?:\/\/.*\.(aoscdn\.com|apsapp\.cn),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/arqjt.js

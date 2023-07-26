@@ -1,6 +1,6 @@
 #!name=Safari全能搜索
 #!desc=关键词+空格+命令 需将搜索引擎设成duckduckgo
-#!Author=ddgksf2013、Repcz
+#!Author=ddgksf2013
 #!icon=https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Color/Venom.png
 
 [Rewrite]

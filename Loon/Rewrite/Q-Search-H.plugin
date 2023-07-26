@@ -1,0 +1,43 @@
+#!name=Safari全能搜索H版
+#!desc=关键词+空格+命令 需将搜索引擎设成duckduckgo
+#!Author=Treo6
+#!icon=https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Color/Venom.png
+
+[Rewrite]
+# 91 91搜索
+^https:\/\/duckduckgo.com\/\?q=91\+([^&]+).+ https://91porn.com/search_result.php?search_id=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+91.+ https://91porn.com/search_result.php?search_id=$1 302
+
+# ph pornhub搜索
+^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+ph.+ https://cn.pornhub.com/video/search?search=$1 302
+
+# 51 51吃瓜搜索
+^https:\/\/duckduckgo.com\/\?q=51\+([^&]+).+ https://51cg1.com/search/$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+51.+ https://51cg1.com/search/$1 302
+
+# cg 黑料吃瓜搜索
+^https:\/\/duckduckgo.com\/\?q=cg\+([^&]+).+ https://chigua2.com/search/$1/ 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+cg.+ https://chigua2.com/search/$1/ 302
+
+# jab jable搜索
+^https:\/\/duckduckgo.com\/\?q=jab\+([^&]+).+ https://jable.tv/search/$1/ 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+jab.+ https://jable.tv/search/$1/ 302
+
+# hm haname搜索
+^https:\/\/duckduckgo.com\/\?q=hm\+([^&]+).+ https://hanime1.me/search?query=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+hm.+ https://hanime1.me/search?query=$1 302
+
+# 91s 91短视频搜索
+^https:\/\/duckduckgo.com\/\?q=91s\+([^&]+).+ https://cn1.91short.com/search?wd=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^+]+)\+91s.+ https://cn1.91short.com/search?wd=$1 302
+
+# bd 百度搜索
+^https?:\/\/duckduckgo\.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
+^https?:\/\/duckduckgo\.com\/\?q=([^&]+)\+bd.+ https://www.baidu.com/s?wd=$1 302
+
+# 无关键字默认Google搜索
+^https?:\/\/duckduckgo\.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
+
+[MITM]
+hostname = duckduckgo.com

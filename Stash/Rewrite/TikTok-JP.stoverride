@@ -1,5 +1,5 @@
-#!name=TikTok
-#!desc=解锁TikTok日本地区
+name: TikTok
+desc: 解锁TikTok日本地区
 #!author=Semporia
 
 http:

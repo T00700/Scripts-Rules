@@ -1,5 +1,5 @@
-#!name=Nicegram
-#!desc=解锁Nicegram会员
+name: Nicegram
+desc: 解锁Nicegram会员
 #!author=I-am-R-E
 
 http:

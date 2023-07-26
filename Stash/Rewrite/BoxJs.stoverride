@@ -1,5 +1,5 @@
-#!name=BoxJs
-#!desc=http://BoxJs.com
+name: BoxJs
+desc: http://BoxJs.com
 #!author=chavyleung
 
 http:

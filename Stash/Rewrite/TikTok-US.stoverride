@@ -1,5 +1,5 @@
-#!name=TikTok
-#!desc=解锁TikTok美国地区
+name: TikTok
+desc: 解锁TikTok美国地区
 #!author=Semporia
 
 http:

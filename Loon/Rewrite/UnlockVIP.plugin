@@ -1,6 +1,7 @@
 #!name = 会员解锁合集
 #!desc = 搜集整理会员重写合集
 #!tool = Loon
+#!icon = https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Color/Venom.png
 
 [Script]
 # 名称:spotify

@@ -1,0 +1,17 @@
+#!name = 会员解锁合集
+#!desc = 搜集整理会员重写合集
+#!tool = QuantumultX
+
+# 名称:spotify
+# 作者:app2smile
+^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+^https:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ url script-request-header https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
+
+# 名称:元气壁纸
+# 作者:Hausd0rff
+^https?:\/\/mobile-ios-wallpaper-api\.zhhainiao\.com\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/YuanQiPaperVipCrack.js
+
+# 名称:
+# 作者:
+
+hostname = spclient.wg.spotify.com, mobile-ios-wallpaper-api.zhhainiao.com

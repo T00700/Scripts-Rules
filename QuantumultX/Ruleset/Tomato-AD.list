@@ -2,28 +2,32 @@
 #!desc=番茄小说去广告 搭配以下重写使用
 #!rewrite=https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/QuantumultX/Rewrite/Tomato-AD.snippet
 
-HOST,*default.ixigua.com,REJECT
-HOST,*novelapp.ixigua.com,REJECT
-HOST,activity-ag.awemeughun.com,REJECT
-HOST,apd-pcdnwxlogin.teg.tencent-cloud.net,REJECT
-HOST,api.iegadp.qq.com,REJECT
-HOST,dig.bdurl.net,REJECT
-HOST,i.snssdk.com,REJECT
-HOST,i.snssdk.com,REJECT
-HOST,i-lq.snssdk.com,REJECT
-HOST,is.snssdk.com,REJECT
-HOST,mcs.snssdk.com,REJECT
-HOST,msync-im1-vip6-std.easemob.com,REJECT
-HOST,p6-ad-sign.byteimg.com,REJECT
-HOST,p9-ad-sign.byteimg.com,REJECT
-HOST,security-lq.snssdk.com,REJECT
-HOST,sf3-ttcdn-tos.pstatp.com,REJECT
-HOST,tnc3-aliec2.snssdk.com,REJECT
-HOST,tnc3-alisc1.snssdk.com,REJECT
-HOST,v6-novelapp.ixigua.com,REJECT
-HOST-SUFFIX,bytedance.com,REJECT
-HOST-SUFFIX,bytegoofy.com,REJECT
-# HOST-SUFFIX,byteimg.com,DIRECT
-HOST-SUFFIX,byteorge.com,REJECT
-HOST-SUFFIX,pglstatp-toutiao.com,REJECT
-HOST-KEYWORD,zijieapi,REJECT
+HOST, *default.ixigua.com, REJECT
+HOST, *novelapp.ixigua.com, REJECT
+HOST, activity-ag.awemeughun.com, REJECT
+HOST, apd-pcdnwxlogin.teg.tencent-cloud.net, REJECT
+HOST, api.iegadp.qq.com, REJECT
+HOST, dig.bdurl.net, REJECT
+HOST, i.snssdk.com, REJECT
+HOST, i-lq.snssdk.com, REJECT
+HOST, is.snssdk.com, REJECT
+HOST, mcs.snssdk.com, REJECT
+HOST, msync-im1-vip6-std.easemob.com, REJECT
+HOST, p6-ad-sign.byteimg.com, REJECT
+HOST, p9-ad-sign.byteimg.com, REJECT
+HOST, security-lq.snssdk.com, REJECT
+HOST, sf3-ttcdn-tos.pstatp.com, REJECT
+HOST, tnc3-aliec2.snssdk.com, REJECT
+HOST, tnc3-alisc1.snssdk.com, REJECT
+HOST, v6-novelapp.ixigua.com, REJECT
+HOST-SUFFIX, bytedance.com, REJECT
+HOST-SUFFIX, bytegoofy.com, REJECT
+HOST-SUFFIX, byteorge.com, REJECT
+HOST-SUFFIX, pglstatp-toutiao.com, REJECT
+HOST-SUFFIX, zijieapi.com, REJECT
+IP-CIDR, 101.36.166.16/32, REJECT
+IP-CIDR, 117.71.105.23/32, REJECT
+IP-CIDR, 117.92.229.188/32, REJECT
+IP-CIDR, 180.96.2.114/32, REJECT
+IP-CIDR, 218.94.207.205/32, REJECT
+IP-CIDR, 49.71.37.101/32, REJECT

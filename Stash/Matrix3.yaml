@@ -1,6 +1,6 @@
 # 配置名称: Stash 配置
 # 配置作者: Centralmatrix3
-# 更新时间: 23-07-11 08:45
+# 更新时间: 23-08-03 01:20
 
 # 订阅的信息
 subscribe-url: 🧸订阅链接🧸
@@ -10,6 +10,21 @@ proxy-providers:
   Matrix:
     url: 🧸订阅链接🧸
     interval: 600
+
+# 日志级别
+log-level: info
+
+# 出站模式
+mode: rule
+
+# DNS
+dns:
+  default-nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
 
 # 代理策略组
 proxy-groups:
@@ -247,14 +262,3 @@ rule-providers:
     behavior: classical
     interval: 86400
     url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Stash/Ruleset/LAN.yaml
-
-# DNS
-dns:
-  default-nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-  nameserver:
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query
-log-level: info
-mode: rule

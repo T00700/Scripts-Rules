@@ -1,6 +1,6 @@
 # 配置名称: Stash 配置
 # 配置作者: Centralmatrix3
-# 更新时间: 23-08-03 01:20
+# 更新时间: 23-08-13 01:35
 
 # 订阅的信息
 subscribe-url: 🧸订阅链接🧸
@@ -262,3 +262,8 @@ rule-providers:
     behavior: classical
     interval: 86400
     url: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Stash/Ruleset/LAN.yaml
+
+# 本地脚本
+script:
+  shortcuts:
+    quic: network == 'udp' and dst_port == 443

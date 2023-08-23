@@ -1,9 +1,7 @@
 # Scripts And Rules
 
 <details>
-   <summary>小白配置</summary>   
-
-- 自用配置
+   <summary>自用配置</summary>   
   
 - [Clash](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Matrix3.yaml)
 
@@ -20,9 +18,7 @@
 </details>
 
 <details>
-   <summary>策略图标</summary>
-
-- 自用图标
+   <summary>自用图标</summary>
 
 - [Matrix](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Matrix-Color.Json)
 

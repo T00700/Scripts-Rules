@@ -20,7 +20,7 @@
 <details>
    <summary>自用图标</summary>
 
-- [Matrix](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Coloricon/Matrix.Json)
+- [Matrix](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Pictureset/Matrix.Json)
 
 </details>
 

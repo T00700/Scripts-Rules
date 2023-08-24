@@ -1,26 +1,26 @@
 # Scripts And Rules
 
 <details>
-   <summary>自用配置</summary>   
+   <summary>懒人配置</summary>   
   
-- [Clash](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Matrix3.yaml)
+- [Clash](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Matrix.yaml)
 
-- [Loon](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Loon/Matrix3.conf)
+- [Loon](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Loon/Matrix.conf)
 
-- [QuantumultX](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/QuantumultX/Matrix3.conf)
+- [QuantumultX](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/QuantumultX/Matrix.conf)
 
-- [Shadowrocket](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Shadowrocket/Matrix3.conf)
+- [Shadowrocket](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Shadowrocket/Matrix.conf)
 
-- [Stash](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Stash/Matrix3.yaml)
+- [Stash](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Stash/Matrix.yaml)
 
-- [Surge](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Surge/Matrix3.conf)
+- [Surge](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Surge/Matrix.conf)
 
 </details>
 
 <details>
    <summary>自用图标</summary>
 
-- [Matrix](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Matrix-icon/Matrix-Color.Json)
+- [Matrix](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Coloricon/Matrix.Json)
 
 </details>
 

@@ -1,19 +1,19 @@
 # Scripts And Rules
 
 <details>
-   <summary>自用配置</summary>   
+   <summary>懒人配置</summary>   
   
-- [Clash](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Clash.yaml)
+- [Clash](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Matrix.yaml)
 
-- [Loon](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Loon/Loon.conf)
+- [Loon](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Loon/Matrix.conf)
 
-- [QuantumultX](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/QuantumultX/QuantumultX.conf)
+- [QuantumultX](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/QuantumultX/Matrix.conf)
 
-- [Shadowrocket](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Shadowrocket/Shadowrocket.conf)
+- [Shadowrocket](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Shadowrocket/Matrix.conf)
 
-- [Stash](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Stash/Stash.yaml)
+- [Stash](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Stash/Matrix.yaml)
 
-- [Surge](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Surge/Surge.conf)
+- [Surge](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Surge/Matrix.conf)
 
 </details>
 

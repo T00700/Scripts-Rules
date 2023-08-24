@@ -3,17 +3,17 @@
 <details>
    <summary>自用配置</summary>   
   
-- [Clash](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Matrix3.yaml)
+- [Clash](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Clash.yaml)
 
-- [Loon](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Loon/Matrix3.conf)
+- [Loon](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Loon/Loon.conf)
 
-- [QuantumultX](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/QuantumultX/Matrix3.conf)
+- [QuantumultX](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/QuantumultX/QuantumultX.conf)
 
-- [Shadowrocket](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Shadowrocket/Matrix3.conf)
+- [Shadowrocket](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Shadowrocket/Shadowrocket.conf)
 
-- [Stash](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Stash/Matrix3.yaml)
+- [Stash](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Stash/Stash.yaml)
 
-- [Surge](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Surge/Matrix3.conf)
+- [Surge](https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Surge/Surge.conf)
 
 </details>
 

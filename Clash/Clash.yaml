@@ -2,7 +2,7 @@
 # 配置作者: Centralmatrix3
 # 更新时间: 23-08-13 01:02
 # 仓库链接: https://github.com/Centralmatrix3/Scripts-Rules
-# 配置链接: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Clash.yaml
+# 配置链接: https://raw.githubusercontent.com/Centralmatrix3/Scripts-Rules/Master/Clash/Matrix.yaml
 
 port: 7890           # HTTP  端口
 socks-port: 7891     # Socks 端口
